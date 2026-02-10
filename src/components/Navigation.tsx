@@ -26,6 +26,9 @@ const Navigation = () => {
           <Link to="/blog" className="text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">
             INSIGHTS
           </Link>
+          <Link to="/learn" className="text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">
+            ACADEMY
+          </Link>
           <Link to="/contact" className="text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">
             CONTACT
           </Link>
@@ -60,6 +63,9 @@ const Navigation = () => {
             </Link>
             <Link to="/blog" className="block text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300" onClick={() => setIsMenuOpen(false)}>
               INSIGHTS
+            </Link>
+            <Link to="/learn" className="block text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300" onClick={() => setIsMenuOpen(false)}>
+              ACADEMY
             </Link>
             <Link to="/contact" className="block text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300" onClick={() => setIsMenuOpen(false)}>
               CONTACT
