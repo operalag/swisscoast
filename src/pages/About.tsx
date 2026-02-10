@@ -1,49 +1,71 @@
 import Navigation from "@/components/Navigation";
 
 const About = () => {
+  const team = [
+    { name: "Toni Caradonna", role: "President of the Board", linkedin: "https://www.linkedin.com/in/caradonna/" },
+    { name: "Roman Eyholzer", role: "CFO & Board", linkedin: "https://www.linkedin.com/in/roman-eyholzer-3053a1114/" },
+    { name: "Silas Stulz", role: "CTO", linkedin: "https://www.linkedin.com/in/silas-stulz-96576214b/" },
+    { name: "Stefan Deiss", role: "Board", linkedin: "https://www.linkedin.com/in/stefandeiss/" },
+    { name: "Fredy Camacho", role: "CMO & PM", linkedin: null },
+    { name: "Dr. iur. Andreas Gmünder", role: "CLO", linkedin: "https://www.linkedin.com/in/andreasgmuender/" },
+  ];
+
+  const milestones = [
+    { year: "2003", event: "Swisscoast AG founded in Pfäffikon SZ" },
+    { year: "2017", event: "First-ever smart contract for UNICEF" },
+    { year: "2018", event: "Launch of the first private digital Swiss franc (dCHF) on Ethereum" },
+    { year: "2020", event: "Swiss DLT Act ratified by Parliament" },
+    { year: "2023", event: "Digital Swiss Currency market research with Hedera Hashgraph Association" },
+    { year: "2024", event: "HLiquity goes live on Hedera—HCHF stablecoin launched" },
+  ];
+
   return (
     <div className="min-h-screen">
       <Navigation />
       <section className="pt-32 pb-32 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-20 items-center">
+            {/* Intro */}
+            <div className="grid md:grid-cols-2 gap-20 items-start mb-32">
               <div>
                 <h1 className="text-minimal text-muted-foreground mb-4">ABOUT</h1>
                 <h2 className="text-4xl md:text-6xl font-light text-architectural mb-12">
-                  Design Philosophy
+                  Swiss Innovation,
+                  <br />
+                  Global Impact
                 </h2>
                 
                 <div className="space-y-8">
                   <p className="text-lg text-muted-foreground leading-relaxed">
-                    We believe architecture should enhance human experience while respecting 
-                    the natural environment. Our practice focuses on creating spaces that 
-                    are both functional and poetic.
+                    Swisscoast AG is a Swiss innovation technology company specialised in 
+                    blockchain applications, decentralised finance, and distributed ledger 
+                    technology. Rooted in the heart of Switzerland, we pioneer transformative 
+                    DLT solutions for leading international organisations and global communities.
                   </p>
                   
                   <p className="text-lg text-muted-foreground leading-relaxed">
-                    Founded in 2015, our studio has completed over 200 projects across 
-                    residential, commercial, and cultural sectors. Each project begins 
-                    with careful listening and ends with thoughtful execution.
+                    Our commitment goes beyond technology and innovation. We are passionate 
+                    about shaping a sustainable future—ensuring that our developments not only 
+                    lead the way in innovation but also foster a responsible digital ecosystem.
                   </p>
                 </div>
               </div>
               
               <div className="space-y-12">
                 <div>
-                  <h3 className="text-minimal text-muted-foreground mb-6">APPROACH</h3>
+                  <h3 className="text-minimal text-muted-foreground mb-6">OUR VALUES</h3>
                   <div className="space-y-6">
                     <div className="border-l-2 border-architectural pl-6">
-                      <h4 className="text-lg font-medium mb-2">Research</h4>
-                      <p className="text-muted-foreground">Deep understanding of context, culture, and climate</p>
-                    </div>
-                    <div className="border-l-2 border-architectural pl-6">
-                      <h4 className="text-lg font-medium mb-2">Collaboration</h4>
-                      <p className="text-muted-foreground">Close partnership with clients, engineers, and craftspeople</p>
-                    </div>
-                    <div className="border-l-2 border-architectural pl-6">
                       <h4 className="text-lg font-medium mb-2">Innovation</h4>
-                      <p className="text-muted-foreground">Sustainable materials and forward-thinking design solutions</p>
+                      <p className="text-muted-foreground">Pushing the boundaries of what's possible with distributed ledger technology</p>
+                    </div>
+                    <div className="border-l-2 border-architectural pl-6">
+                      <h4 className="text-lg font-medium mb-2">Sustainability</h4>
+                      <p className="text-muted-foreground">Zero-carbon solutions committed to economic and environmental responsibility</p>
+                    </div>
+                    <div className="border-l-2 border-architectural pl-6">
+                      <h4 className="text-lg font-medium mb-2">Integrity</h4>
+                      <p className="text-muted-foreground">Swiss precision and transparency in everything we build</p>
                     </div>
                   </div>
                 </div>
@@ -52,14 +74,67 @@ const About = () => {
                   <div className="grid grid-cols-2 gap-8">
                     <div>
                       <h3 className="text-minimal text-muted-foreground mb-2">FOUNDED</h3>
-                      <p className="text-xl">2015</p>
+                      <p className="text-xl">2003</p>
                     </div>
                     <div>
-                      <h3 className="text-minimal text-muted-foreground mb-2">PROJECTS</h3>
-                      <p className="text-xl">200+</p>
+                      <h3 className="text-minimal text-muted-foreground mb-2">LOCATION</h3>
+                      <p className="text-xl">Pfäffikon SZ</p>
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+
+            {/* Timeline */}
+            <div className="mb-32">
+              <h3 className="text-minimal text-muted-foreground mb-4">MILESTONES</h3>
+              <h4 className="text-4xl md:text-5xl font-light text-architectural mb-16">
+                Our Journey
+              </h4>
+              <div className="space-y-8">
+                {milestones.map((milestone, index) => (
+                  <div key={index} className="flex items-start space-x-8 group">
+                    <span className="text-2xl font-light text-architectural min-w-[80px]">
+                      {milestone.year}
+                    </span>
+                    <div className="border-l-2 border-border group-hover:border-foreground transition-colors duration-300 pl-8 py-2">
+                      <p className="text-lg text-muted-foreground group-hover:text-foreground transition-colors duration-300">
+                        {milestone.event}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Team */}
+            <div>
+              <h3 className="text-minimal text-muted-foreground mb-4">TEAM</h3>
+              <h4 className="text-4xl md:text-5xl font-light text-architectural mb-16">
+                Meet the Minds Behind Swisscoast
+              </h4>
+              <div className="grid md:grid-cols-3 gap-12">
+                {team.map((member, index) => (
+                  <div key={index} className="group">
+                    <div className="w-full h-64 bg-muted mb-6 flex items-center justify-center">
+                      <span className="text-4xl text-muted-foreground/30 font-light">
+                        {member.name.split(' ').map(n => n[0]).join('')}
+                      </span>
+                    </div>
+                    <h5 className="text-lg font-medium mb-1">{member.name}</h5>
+                    <p className="text-minimal text-muted-foreground mb-3">{member.role}</p>
+                    {member.linkedin && (
+                      <a 
+                        href={member.linkedin} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300"
+                      >
+                        LINKEDIN →
+                      </a>
+                    )}
+                  </div>
+                ))}
               </div>
             </div>
           </div>
