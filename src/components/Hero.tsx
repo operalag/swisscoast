@@ -1,4 +1,4 @@
-import heroImage from "@/assets/hero-architecture.jpg";
+import heroImage from "@/assets/hero-swisscoast.jpg";
 
 const Hero = () => {
   return (
@@ -14,13 +14,12 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
+        <p className="text-minimal text-white/60 mb-6 reveal">DLT IS OUR DNA</p>
         <h1 className="text-6xl md:text-8xl lg:text-9xl font-light text-white text-architectural mb-8 reveal">
-          MINIMAL
-          <br />
-          ARCHITECTURE
+          SWISSCOAST
         </h1>
         <p className="text-xl md:text-2xl text-white/80 font-light tracking-wide max-w-2xl mx-auto reveal-delayed">
-          Creating spaces that inspire through thoughtful design and uncompromising quality
+          Bridging traditional finance and the digital realm with innovative DLT solutions
         </p>
       </div>
       

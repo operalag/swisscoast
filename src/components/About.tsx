@@ -7,39 +7,43 @@ const About = () => {
             <div>
               <h2 className="text-minimal text-muted-foreground mb-4">ABOUT</h2>
               <h3 className="text-4xl md:text-6xl font-light text-architectural mb-12">
-                Design Philosophy
+                Swiss Innovation,
+                <br />
+                Global Impact
               </h3>
               
               <div className="space-y-8">
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  We believe architecture should enhance human experience while respecting 
-                  the natural environment. Our practice focuses on creating spaces that 
-                  are both functional and poetic.
+                  Swisscoast AG, headquartered in Pfäffikon SZ, is a Swiss innovation 
+                  technology company specialised in blockchain applications and distributed 
+                  ledger technology. We bridge the gap between traditional finance and 
+                  the digital realm.
                 </p>
                 
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Founded in 2015, our studio has completed over 200 projects across 
-                  residential, commercial, and cultural sectors. Each project begins 
-                  with careful listening and ends with thoughtful execution.
+                  Founded in 2003, we have been at the forefront of DLT innovation—from 
+                  programming UNICEF's first-ever smart contract in 2017 to launching 
+                  the first private digital Swiss franc in 2018 and deploying HLiquity, 
+                  the first decentralized borrowing protocol on Hedera, in 2024.
                 </p>
               </div>
             </div>
             
             <div className="space-y-12">
               <div>
-                <h4 className="text-minimal text-muted-foreground mb-6">APPROACH</h4>
+                <h4 className="text-minimal text-muted-foreground mb-6">OUR APPROACH</h4>
                 <div className="space-y-6">
                   <div className="border-l-2 border-architectural pl-6">
-                    <h5 className="text-lg font-medium mb-2">Research</h5>
-                    <p className="text-muted-foreground">Deep understanding of context, culture, and climate</p>
+                    <h5 className="text-lg font-medium mb-2">Research-Driven</h5>
+                    <p className="text-muted-foreground">Market studies on digital currencies with partners like the Hedera Hashgraph Association</p>
                   </div>
                   <div className="border-l-2 border-architectural pl-6">
-                    <h5 className="text-lg font-medium mb-2">Collaboration</h5>
-                    <p className="text-muted-foreground">Close partnership with clients, engineers, and craftspeople</p>
+                    <h5 className="text-lg font-medium mb-2">Security-First</h5>
+                    <p className="text-muted-foreground">Comprehensive audits by firms like Omniscia ensure protocol-level security</p>
                   </div>
                   <div className="border-l-2 border-architectural pl-6">
-                    <h5 className="text-lg font-medium mb-2">Innovation</h5>
-                    <p className="text-muted-foreground">Sustainable materials and forward-thinking design solutions</p>
+                    <h5 className="text-lg font-medium mb-2">Sustainability</h5>
+                    <p className="text-muted-foreground">Zero-carbon DLT solutions for a responsible digital ecosystem</p>
                   </div>
                 </div>
               </div>
@@ -48,11 +52,11 @@ const About = () => {
                 <div className="grid grid-cols-2 gap-8">
                   <div>
                     <h4 className="text-minimal text-muted-foreground mb-2">FOUNDED</h4>
-                    <p className="text-xl">2015</p>
+                    <p className="text-xl">2003</p>
                   </div>
                   <div>
-                    <h4 className="text-minimal text-muted-foreground mb-2">PROJECTS</h4>
-                    <p className="text-xl">200+</p>
+                    <h4 className="text-minimal text-muted-foreground mb-2">LOCATION</h4>
+                    <p className="text-xl">Pfäffikon SZ</p>
                   </div>
                 </div>
               </div>

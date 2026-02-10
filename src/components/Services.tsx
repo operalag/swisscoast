@@ -2,23 +2,23 @@ const Services = () => {
   const services = [
     {
       number: "01",
-      title: "RESIDENTIAL",
-      description: "Crafting homes that reflect individual lifestyles while maintaining architectural integrity"
+      title: "DECENTRALIZED FINANCE",
+      description: "Pioneering DeFi applications and protocols that transform the financial landscape. We make decentralized finance accessible and integrate it seamlessly into business operations."
     },
     {
       number: "02", 
-      title: "COMMERCIAL",
-      description: "Designing functional spaces that enhance business environments and user experiences"
+      title: "STABLE CURRENCY SOLUTIONS",
+      description: "Creating and deploying stable digital currencies pegged to reliable fiat assets. From the first private digital Swiss franc (dCHF) to HCHF on Hedera—promoting financial stability and growth."
     },
     {
       number: "03",
-      title: "RENOVATION",
-      description: "Transforming existing structures with contemporary sensibilities and sustainable practices"
+      title: "SMART CONTRACT DEVELOPMENT",
+      description: "Building secure, audited smart contracts on leading blockchain networks. From UNICEF's first smart contract in 2017 to production-grade DeFi protocols on Hedera."
     },
     {
       number: "04",
-      title: "CONSULTATION",
-      description: "Providing expert guidance on design direction, planning, and architectural solutions"
+      title: "SUSTAINABLE DLT",
+      description: "Developing zero-carbon blockchain solutions that reflect our commitment to a sustainable future. Innovation and environmental responsibility go hand in hand."
     }
   ];
 
@@ -27,9 +27,9 @@ const Services = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-7xl mx-auto">
           <div className="mb-20">
-            <h2 className="text-minimal text-muted-foreground mb-4">SERVICES</h2>
+            <h2 className="text-minimal text-muted-foreground mb-4">OUR EXPERTISE</h2>
             <h3 className="text-4xl md:text-6xl font-light text-architectural">
-              What We Do
+              What We Build
             </h3>
           </div>
           

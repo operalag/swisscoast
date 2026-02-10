@@ -11,58 +11,70 @@ const Contact = () => {
               <div>
                 <h1 className="text-minimal text-muted-foreground mb-4">GET IN TOUCH</h1>
                 <h2 className="text-4xl md:text-6xl font-light text-architectural mb-12">
-                  Let's Create Something
+                  Let's Shape
                   <br />
-                  Extraordinary
+                  The Future of Finance
                 </h2>
                 
                 <div className="space-y-8">
                   <div>
                     <h3 className="text-minimal text-muted-foreground mb-2">EMAIL</h3>
-                    <a href="mailto:hello@archstudio.com" className="text-xl hover:text-muted-foreground transition-colors duration-300">
-                      hello@archstudio.com
+                    <a href="mailto:office@swisscoast.ch" className="text-xl hover:text-muted-foreground transition-colors duration-300">
+                      office@swisscoast.ch
                     </a>
                   </div>
                   
                   <div>
-                    <h3 className="text-minimal text-muted-foreground mb-2">PHONE</h3>
-                    <a href="tel:+1234567890" className="text-xl hover:text-muted-foreground transition-colors duration-300">
-                      +1 (234) 567-8900
-                    </a>
-                  </div>
-                  
-                  <div>
-                    <h3 className="text-minimal text-muted-foreground mb-2">STUDIO</h3>
+                    <h3 className="text-minimal text-muted-foreground mb-2">HEADQUARTERS</h3>
                     <address className="text-xl not-italic">
-                      123 Design Avenue
+                      Swisscoast AG
                       <br />
-                      New York, NY 10001
+                      Schindellegistrasse 73
+                      <br />
+                      8808 Pfäffikon SZ, Switzerland
                     </address>
+                  </div>
+
+                  <div>
+                    <h3 className="text-minimal text-muted-foreground mb-2">REGISTRATION</h3>
+                    <p className="text-xl">CH 110.173.134</p>
                   </div>
                 </div>
               </div>
               
               <div className="space-y-8">
                 <div>
-                  <h3 className="text-minimal text-muted-foreground mb-6">FOLLOW US</h3>
+                  <h3 className="text-minimal text-muted-foreground mb-6">CONNECT</h3>
                   <div className="space-y-4">
-                    <a href="#" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
-                      Instagram
-                    </a>
-                    <a href="#" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
+                    <a href="https://www.linkedin.com/company/swisscoast/" target="_blank" rel="noopener noreferrer" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
                       LinkedIn
                     </a>
-                    <a href="#" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
-                      Behance
+                    <a href="https://twitter.com/swisscoast" target="_blank" rel="noopener noreferrer" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
+                      X (Twitter)
+                    </a>
+                    <a href="https://github.com/SwisscoastAG" target="_blank" rel="noopener noreferrer" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="text-minimal text-muted-foreground mb-6">ECOSYSTEM</h3>
+                  <div className="space-y-4">
+                    <a href="https://hliquity.org" target="_blank" rel="noopener noreferrer" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
+                      HLiquity Protocol
+                    </a>
+                    <a href="https://docs.hliquity.org" target="_blank" rel="noopener noreferrer" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
+                      HLiquity Documentation
                     </a>
                   </div>
                 </div>
                 
                 <div className="pt-12 border-t border-border">
                   <p className="text-muted-foreground">
-                    We approach each project with curiosity, rigor, and a commitment to excellence. 
-                    Our process begins with listening, understanding your vision, and translating 
-                    it into spaces that exceed expectations.
+                    With Swisscoast, you choose a partner at the forefront of DLT innovation, 
+                    committed to building a sustainable digital ecosystem. We are shaping the 
+                    future of finance and ensuring it is sustainable for generations to come.
                   </p>
                 </div>
               </div>

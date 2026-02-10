@@ -12,314 +12,231 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
-    id: "sustainable-architecture-future",
-    title: "The Future of Sustainable Architecture",
-    excerpt: "Exploring how modern architectural practices are evolving to meet environmental challenges while maintaining design excellence.",
+    id: "hliquity-defi-borrowing-hedera",
+    title: "How Interest-Free Borrowing Works on HLiquity",
+    excerpt: "A deep dive into HLiquity's revolutionary borrowing mechanism on the Hedera network—interest-free loans backed by HBAR, issuing HCHF stablecoins.",
     content: `
-# The Future of Sustainable Architecture
+# How Interest-Free Borrowing Works on HLiquity
 
-The architectural landscape is undergoing a profound transformation as we face the urgent need to address climate change and environmental degradation. Sustainable architecture is no longer a niche consideration—it has become the cornerstone of responsible design practice.
+HLiquity represents a paradigm shift in decentralised finance. Built on the Hedera network, it enables users to borrow against their HBAR holdings without paying ongoing interest—a model that challenges traditional lending norms.
 
-## Defining Sustainable Architecture
+## The Core Mechanism
 
-Sustainable architecture encompasses more than just energy efficiency. It represents a holistic approach to building design that considers the entire lifecycle of a structure, from material sourcing to end-of-life disposal. This philosophy integrates environmental, social, and economic factors to create buildings that not only minimize their ecological footprint but also enhance the quality of life for their occupants.
+HLiquity is a fork of the well-established Liquity Protocol on Ethereum, adapted for Hedera's high-throughput, low-cost infrastructure. Instead of charging interest, HLiquity applies a one-time borrowing fee when a loan is opened.
 
-## Key Principles of Sustainable Design
+### How It Works
 
-### Material Selection
-The choice of building materials plays a crucial role in sustainable architecture. Architects are increasingly turning to:
-- Recycled and upcycled materials
-- Locally sourced materials to reduce transportation emissions
-- Bio-based materials like bamboo, cork, and mycelium
-- Materials with low embodied energy
+Users deposit HBAR as collateral into a "Trove" and can borrow HCHF—a stablecoin pegged to the Swiss Franc—against it. The minimum collateral ratio is 110%, meaning for every 100 CHF worth of HCHF borrowed, at least 110 CHF worth of HBAR must be locked.
 
-### Energy Efficiency
-Modern sustainable buildings incorporate:
-- Passive solar design principles
-- High-performance insulation systems
-- Smart building technologies
-- Renewable energy integration
-- Natural ventilation strategies
+### Key Features
 
-### Water Management
-Sustainable architecture addresses water conservation through:
-- Rainwater harvesting systems
-- Greywater recycling
-- Permeable landscaping
-- Low-flow fixtures and appliances
+- **Interest-Free**: No ongoing interest charges on loans
+- **Low Collateral Ratio**: Minimum 110% vs. 150%+ on many DeFi platforms
+- **Immediate Liquidation**: Undercollateralised positions are liquidated instantly
+- **Non-Custodial**: Users maintain full control of their assets
 
-## Emerging Trends
+## The Stability Pool
 
-The future of sustainable architecture is being shaped by several emerging trends:
+The Stability Pool is HLiquity's safety net. HCHF holders can deposit their tokens into the pool to act as liquidators. When a Trove falls below the minimum collateral ratio, the Stability Pool absorbs the debt and receives the collateral at a discount.
 
-### Biophilic Design
-The integration of natural elements into built environments is gaining momentum. This approach recognizes the innate human connection to nature and seeks to incorporate natural light, ventilation, vegetation, and organic forms into architectural design.
+### Benefits for Stability Providers
 
-### Circular Economy Principles
-Architects are beginning to design for disassembly, creating buildings that can be easily deconstructed and their materials reused in new projects. This approach challenges the traditional linear model of construction and waste.
+- Earn HBAR from liquidated collateral at a discount
+- Receive HLQT token rewards for participating
+- Help maintain system stability
 
-### Carbon-Neutral and Carbon-Negative Buildings
-The next generation of sustainable buildings aims not just to minimize carbon emissions but to actively remove carbon from the atmosphere through innovative design and material choices.
+## HCHF: The Swiss Franc Stablecoin
 
-## Challenges and Opportunities
+HCHF is pegged to the Swiss Franc—a currency recognised for its reliability, stability, and low inflation. This makes HCHF uniquely positioned in the stablecoin landscape, which is dominated by USD-pegged tokens.
 
-While the path toward sustainable architecture presents challenges—including higher upfront costs, regulatory barriers, and the need for specialized knowledge—it also offers tremendous opportunities. These include reduced operational costs, improved occupant health and productivity, and the potential to create resilient communities that can adapt to changing environmental conditions.
+### Price Stability Mechanisms
+
+- **Redemption**: HCHF can always be redeemed for HBAR at face value
+- **Arbitrage**: Price deviations create arbitrage opportunities that self-correct
+- **Collateral Backing**: Every HCHF is overcollateralised by HBAR
+
+## Why Hedera?
+
+Hedera offers several advantages for DeFi protocols:
+
+- **Low Transaction Costs**: Fractions of a cent per transaction
+- **High Throughput**: Thousands of transactions per second
+- **Energy Efficiency**: Carbon-negative network
+- **Enterprise Governance**: Governed by leading global organisations
+
+## The HLQT Token
+
+HLQT is the protocol's incentive token, distributed to Stability Pool providers and ecosystem participants. HLQT stakers earn a share of borrowing and redemption fees.
+
+## Security and Trust
+
+HLiquity has been audited by Omniscia, ensuring the smart contracts meet the highest security standards. The protocol is non-custodial, immutable, and governance-free—no single entity can alter its rules.
 
 ## Conclusion
 
-The future of architecture lies in our ability to create buildings that work in harmony with natural systems. As architects, we have the responsibility and the opportunity to design a built environment that supports both human well-being and planetary health. The transition to sustainable architecture is not just an environmental imperative—it is a creative challenge that will define the next era of architectural innovation.
+HLiquity brings a proven DeFi model to Hedera with a unique Swiss Franc twist. By combining interest-free borrowing, robust liquidation mechanisms, and a stable currency pegged to one of the world's most trusted fiat currencies, HLiquity opens new possibilities for decentralised finance.
     `,
-    author: "Sarah Chen",
-    date: "2024-03-15",
+    author: "Swisscoast Team",
+    date: "2024-04-12",
     readTime: "8 min read",
-    category: "SUSTAINABILITY",
-    image: "/src/assets/blog-sustainable-architecture.jpg"
+    category: "DEFI",
+    image: "/src/assets/project-hliquity.jpg"
   },
   {
-    id: "minimalism-modern-living",
-    title: "Minimalism in Modern Living Spaces",
-    excerpt: "How the principles of minimalist design are reshaping contemporary residential architecture and interior spaces.",
+    id: "digital-swiss-franc-history",
+    title: "The Journey to a Private Digital Swiss Franc",
+    excerpt: "From the first dCHF on Ethereum in 2018 to HCHF on Hedera in 2024—how Swisscoast pioneered stable digital Swiss currency.",
     content: `
-# Minimalism in Modern Living Spaces
+# The Journey to a Private Digital Swiss Franc
 
-In an era of overwhelming digital noise and material excess, minimalist architecture offers a sanctuary of calm and clarity. This design philosophy, rooted in the Japanese concept of "ma" (negative space) and Scandinavian functionality, has evolved into a defining characteristic of contemporary residential design.
+The Swiss Franc has long been a symbol of financial stability and trust. Swisscoast set out to bring those qualities into the decentralised digital world—and succeeded, twice.
 
-## The Philosophy Behind Minimalism
+## The First dCHF: March 2018
 
-Minimalist architecture is not about creating empty or stark spaces—it's about intentional design choices that prioritize function, beauty, and the essential elements of living. The approach emphasizes:
+On March 20, 2018, Swisscoast launched the first private digital Swiss franc (dCHF) on the Ethereum blockchain, post block 52911611. This was a landmark moment: a Swiss company creating a digital representation of one of the world's most stable currencies on a public blockchain.
 
-- **Simplicity over complexity**
-- **Quality over quantity**
-- **Space over stuff**
-- **Light over ornament**
+### Why It Mattered
 
-## Core Elements of Minimalist Design
+- **First of Its Kind**: No private entity had created a digital Swiss franc before
+- **Swiss Precision**: Built with the same commitment to quality that defines Swiss finance
+- **Foundation for Future Work**: Proved the concept of fiat-pegged stablecoins from Switzerland
 
-### Clean Lines and Geometric Forms
-Minimalist architecture favors simple geometric shapes and clean lines. This creates a sense of order and tranquility that serves as a backdrop for daily life. The absence of decorative elements allows the architecture itself to become the focal point.
+## The Swiss DLT Act
 
-### Natural Materials
-The minimalist palette typically includes:
-- Raw concrete
-- Natural wood
-- Steel and glass
-- Stone and marble
-- Neutral textiles
+In 2020, the Swiss Parliament ratified the DLT Act, establishing clear legal and regulatory guidelines for blockchain and fintech. This legislation solidified Switzerland's position as a global leader in the blockchain industry and created a favorable environment for projects like Swisscoast's.
 
-These materials are chosen for their inherent beauty and authenticity, often displayed in their natural state without excessive finishing or treatment.
+## Market Research: Digital Swiss Currency Study
 
-### Strategic Use of Light
-Natural light becomes a design element in minimalist spaces. Large windows, skylights, and glass walls not only illuminate the interior but create a connection with the outdoors. The interplay of light and shadow throughout the day adds depth and interest to otherwise simple surfaces.
+In March 2023, Swisscoast conducted a comprehensive market research study on a digital Swiss Currency together with the Hedera Hashgraph Association. This research explored demand, use cases, and technical requirements for a next-generation Swiss franc stablecoin.
 
-### Functional Furniture and Built-ins
-Every piece serves a purpose in minimalist design. Furniture is often built-in or carefully selected for both function and aesthetic value. Storage solutions are integrated seamlessly into the architecture, maintaining the clean lines while providing necessary functionality.
+### Key Findings
 
-## The Psychology of Minimalist Living
+- Strong demand for a CHF-denominated stablecoin in DeFi
+- The Swiss Franc is underrepresented in decentralised finance globally
+- Hedera's infrastructure offers ideal properties for stablecoin deployment
+- Regulatory clarity in Switzerland provides a competitive advantage
 
-Research in environmental psychology suggests that minimalist spaces can have profound effects on mental well-being:
+## HCHF: The Evolution on Hedera
 
-### Reduced Stress and Anxiety
-Clutter-free environments have been shown to reduce cortisol levels and promote feelings of calm and control.
+Building on years of experience and research, Swisscoast deployed HCHF through the HLiquity protocol on Hedera in 2024. Unlike the original dCHF, HCHF is fully decentralised—generated through overcollateralised borrowing rather than centralised issuance.
 
-### Enhanced Focus and Productivity
-With fewer visual distractions, occupants often report improved concentration and mental clarity.
+### How HCHF Differs from dCHF
 
-### Greater Appreciation for Quality
-When surrounded by fewer but higher-quality items, people tend to develop a deeper appreciation for craftsmanship and design.
+- **Decentralised Issuance**: Created through borrowing, not minting by an authority
+- **Overcollateralised**: Backed by HBAR at a minimum 110% ratio
+- **Self-Stabilising**: Redemption and arbitrage mechanisms maintain the peg
+- **Non-Custodial**: No single entity controls the supply
 
-## Challenges and Considerations
+## The Broader Vision
 
-### Storage Solutions
-One of the biggest challenges in minimalist design is providing adequate storage while maintaining clean aesthetics. This requires creative solutions such as:
-- Hidden storage compartments
-- Multi-functional furniture
-- Dedicated storage rooms or areas
+Swisscoast's work on digital Swiss franc solutions is about more than technology. It's about:
 
-### Personalization
-Creating minimalist spaces that feel warm and personal requires careful curation of meaningful objects and artwork.
+- **Diversifying DeFi**: Reducing dependence on USD-pegged stablecoins
+- **Swiss Values in Web3**: Bringing stability, precision, and trust to decentralised finance
+- **Financial Inclusion**: Making Swiss financial quality accessible globally
+- **Sustainability**: Building on energy-efficient blockchain infrastructure
 
-### Maintenance
-Minimalist spaces can show wear and dirt more easily, requiring consistent maintenance to preserve their pristine appearance.
+## What's Next
 
-## Minimalism and Sustainability
-
-The minimalist approach aligns naturally with sustainable design principles:
-- **Reduced material consumption**
-- **Focus on durability over trends**
-- **Energy efficiency through passive design**
-- **Long-term thinking over short-term aesthetics**
+Swisscoast is actively researching how to leverage HLiquity for further innovations. The protocol serves as a foundation for future projects that will continue to bridge traditional Swiss finance with the decentralised digital world.
 
 ## Conclusion
 
-Minimalism in modern living spaces represents more than just an aesthetic choice—it's a lifestyle philosophy that prioritizes intention, quality, and well-being. As our lives become increasingly complex, the simplicity and clarity of minimalist design offer a path toward more meaningful and sustainable ways of living.
-
-The challenge for architects and designers is to create minimalist spaces that feel alive and welcoming rather than cold or sterile. When executed thoughtfully, minimalist design can provide the perfect canvas for life's most important moments.
+From the pioneering dCHF on Ethereum to the fully decentralised HCHF on Hedera, Swisscoast has consistently pushed the boundaries of what's possible with digital currencies. Each step has been guided by the same principles: Swiss quality, financial stability, and a commitment to building a sustainable digital ecosystem.
     `,
-    author: "Marcus Rodriguez",
-    date: "2024-03-10",
+    author: "Swisscoast Team",
+    date: "2024-03-28",
+    readTime: "7 min read",
+    category: "STABLECOIN",
+    image: "/src/assets/project-dchf.jpg"
+  },
+  {
+    id: "sustainable-blockchain-future",
+    title: "Building Sustainable DLT Solutions",
+    excerpt: "How Swisscoast combines distributed ledger innovation with environmental responsibility to create zero-carbon blockchain solutions.",
+    content: `
+# Building Sustainable DLT Solutions
+
+At Swisscoast, sustainability isn't an afterthought—it's a design principle. Every protocol we build, every smart contract we deploy, reflects our commitment to a future where innovation and environmental responsibility go hand in hand.
+
+## The Environmental Challenge of Blockchain
+
+Traditional proof-of-work blockchains consume enormous amounts of energy. Bitcoin alone uses more electricity than many countries. This has rightly drawn criticism and raised questions about the long-term viability of blockchain technology.
+
+### The Shift to Sustainable Consensus
+
+The industry is evolving. Proof-of-stake and other consensus mechanisms dramatically reduce energy consumption. Hedera's hashgraph consensus, for example, is carbon-negative—meaning the network actively offsets more carbon than it produces.
+
+## Why Hedera for Sustainability
+
+Swisscoast chose Hedera as the platform for HLiquity not just for its performance, but for its environmental credentials:
+
+- **Carbon-Negative**: Hedera purchases carbon offsets exceeding its energy usage
+- **Energy-Efficient**: Hashgraph consensus requires minimal computational resources
+- **Enterprise Governance**: The Hedera Governing Council includes organisations committed to sustainability
+- **Transparent Reporting**: Regular sustainability reports and third-party verification
+
+## Swisscoast's Approach to Sustainable DLT
+
+### Zero-Carbon Development
+
+Our development practices minimise environmental impact:
+- Choosing energy-efficient blockchain networks
+- Optimising smart contracts for minimal gas consumption
+- Using sustainable hosting and infrastructure
+- Offsetting remaining emissions
+
+### Economic Sustainability
+
+Sustainability also means building systems that are economically viable long-term:
+- Self-sustaining protocol economics through borrowing fees
+- Decentralised operation reducing ongoing infrastructure costs
+- Open-source development enabling community contribution
+- Fee structures that align incentives across all participants
+
+### Social Sustainability
+
+Technology should serve people:
+- Accessible DeFi tools that don't require technical expertise
+- Financial inclusion through low-barrier entry
+- Transparent, governance-free protocols that treat all users equally
+- Knowledge sharing through open documentation and research
+
+## The Swiss Connection
+
+Switzerland's commitment to sustainability aligns perfectly with our mission:
+
+- **Swiss Energy Mix**: High proportion of renewable energy
+- **Environmental Regulations**: Strong legal framework for environmental protection
+- **Innovation Culture**: Support for clean technology and sustainable innovation
+- **Financial Stability**: Long-term thinking embedded in Swiss financial culture
+
+## Beyond Carbon: Holistic Sustainability
+
+True sustainability in blockchain goes beyond energy consumption:
+
+### Protocol Longevity
+- Immutable smart contracts that don't require ongoing maintenance
+- Governance-free design that prevents centralised failure points
+- Battle-tested economic models proven on Ethereum
+
+### Ecosystem Health
+- Supporting a diverse DeFi ecosystem on Hedera
+- Enabling new projects to build on HLiquity's foundation
+- Contributing to the overall resilience of decentralised finance
+
+## The Road Ahead
+
+Swisscoast is committed to proving that cutting-edge DLT innovation and environmental responsibility are not just compatible—they're complementary. As we continue to develop new solutions, sustainability will remain at the core of every decision we make.
+
+## Conclusion
+
+The future of finance must be sustainable. At Swisscoast, we don't just develop DLT solutions—we reinvent them for sustainability. Our projects are proof that blockchain technology can drive financial innovation while respecting our planet and its resources.
+    `,
+    author: "Swisscoast Team",
+    date: "2024-02-15",
     readTime: "6 min read",
-    category: "DESIGN",
-    image: "/src/assets/blog-minimalist-living.jpg"
-  },
-  {
-    id: "urban-planning-community-spaces",
-    title: "Urban Planning and Community Spaces",
-    excerpt: "Examining the role of thoughtful urban planning in creating vibrant, inclusive communities through architectural design.",
-    content: `
-# Urban Planning and Community Spaces
-
-The fabric of our cities is woven through the careful orchestration of public and private spaces, each contributing to the complex ecosystem of urban life. As populations continue to urbanize, the role of thoughtful urban planning and community-centered architectural design becomes increasingly critical in shaping livable, sustainable, and equitable cities.
-
-## The Evolution of Urban Planning
-
-Urban planning has evolved from purely functional considerations—managing traffic flow, utilities, and zoning—to encompass broader goals of social equity, environmental sustainability, and community well-being. This shift recognizes that cities are not just collections of buildings and infrastructure, but complex social organisms that require careful nurturing.
-
-### From Zoning to Place-Making
-
-Traditional zoning practices often created segregated, single-use districts that required extensive commuting and limited social interaction. Contemporary urban planning embraces mixed-use development and place-making strategies that:
-
-- **Encourage walkability and cycling**
-- **Mix residential, commercial, and office spaces**
-- **Create destinations rather than just developments**
-- **Foster chance encounters and community building**
-
-## The Architecture of Community
-
-Community spaces serve as the living rooms of our cities—places where strangers become neighbors, where cultural exchange happens naturally, and where the social fabric of urban life is strengthened.
-
-### Public Squares and Plazas
-Well-designed public squares act as outdoor rooms that can accommodate a variety of activities:
-- **Markets and festivals**
-- **Informal gatherings and people-watching**
-- **Children's play and elderly socialization**
-- **Political demonstrations and civic engagement**
-
-### Community Centers and Libraries
-Modern community centers are evolving beyond their traditional roles to become:
-- **Flexible spaces that adapt to different needs**
-- **Technology hubs providing digital access**
-- **Venues for lifelong learning and skill development**
-- **Safe havens during emergencies or extreme weather**
-
-### Parks and Green Spaces
-Urban parks provide essential ecosystem services while creating opportunities for recreation, contemplation, and community gathering. Effective park design considers:
-- **Diverse programming for different age groups**
-- **Seasonal activities and year-round usability**
-- **Biodiversity and habitat creation**
-- **Stormwater management and climate resilience**
-
-## Principles of Inclusive Design
-
-Creating truly community-centered spaces requires attention to inclusivity and accessibility:
-
-### Universal Design
-Spaces should be usable by people of all abilities, ages, and backgrounds. This includes:
-- **Physical accessibility through ramps, elevators, and clear sightlines**
-- **Sensory considerations for those with hearing or visual impairments**
-- **Cultural sensitivity in programming and design**
-- **Economic accessibility through free or low-cost activities**
-
-### Safety and Comfort
-Community spaces must feel safe and welcoming to all users:
-- **Good lighting and clear sightlines**
-- **Natural surveillance through strategic positioning**
-- **Comfortable seating and weather protection**
-- **Clean and well-maintained facilities**
-
-## The Role of Participation
-
-Successful community spaces are designed with, not just for, the people who will use them. Participatory design processes involve:
-
-### Community Engagement
-- **Public meetings and design charrettes**
-- **Surveys and focus groups with diverse stakeholders**
-- **Pop-up installations to test design ideas**
-- **Ongoing feedback and adaptation**
-
-### Cultural Responsiveness
-Understanding the specific cultural context of a community is essential:
-- **Recognizing existing social patterns and traditions**
-- **Incorporating local materials and architectural vernacular**
-- **Supporting local businesses and economies**
-- **Celebrating cultural diversity through programming and design**
-
-## Technology and Smart Cities
-
-The integration of technology into urban planning offers new opportunities for community building:
-
-### Digital Infrastructure
-- **Free Wi-Fi in public spaces**
-- **Digital wayfinding and information systems**
-- **Online platforms for community organizing**
-- **Data collection for continuous improvement**
-
-### Responsive Design
-Smart city technologies can make spaces more adaptive to community needs:
-- **Lighting that responds to usage patterns**
-- **Flexible infrastructure for different events**
-- **Real-time feedback systems**
-- **Environmental monitoring for health and comfort**
-
-## Challenges and Opportunities
-
-### Gentrification and Displacement
-Well-designed community spaces can inadvertently contribute to gentrification. Planners must consider:
-- **Affordable housing preservation**
-- **Local business protection**
-- **Community ownership models**
-- **Equitable development strategies**
-
-### Climate Change Adaptation
-Urban planning must increasingly consider climate resilience:
-- **Heat island effect mitigation**
-- **Flood management and permeable surfaces**
-- **Emergency shelter and evacuation routes**
-- **Food security and urban agriculture**
-
-## Case Studies in Success
-
-### Copenhagen's Public Spaces
-Copenhagen has transformed itself into one of the world's most livable cities through strategic investment in:
-- **Extensive cycling infrastructure**
-- **Year-round public space programming**
-- **Climate-adapted design for Nordic conditions**
-- **Strong public-private partnerships**
-
-### Medellín's Urban Acupuncture
-Medellín, Colombia, has used targeted architectural interventions to transform neighborhoods:
-- **Library parks in underserved areas**
-- **Cable car systems connecting hillside communities**
-- **Green corridors along waterways**
-- **Community-led improvement projects**
-
-## The Future of Community-Centered Design
-
-As we look toward the future, several trends are shaping community-centered urban design:
-
-### Tactical Urbanism
-Temporary, low-cost interventions that test ideas before permanent implementation:
-- **Pop-up parks and parklets**
-- **Temporary bike lanes**
-- **Street art and murals**
-- **Community gardens**
-
-### Intergenerational Design
-Spaces that bring together people of all ages:
-- **Playgrounds adjacent to senior seating**
-- **Community workshops and maker spaces**
-- **Intergenerational housing models**
-- **Shared learning environments**
-
-## Conclusion
-
-The future of our cities depends on our ability to create spaces that strengthen community bonds while addressing the challenges of urbanization, climate change, and social inequality. Through thoughtful urban planning and community-centered architectural design, we can build cities that are not just efficient and sustainable, but truly livable for all their inhabitants.
-
-The most successful community spaces are those that grow and evolve with their users, adapting to changing needs while maintaining their essential character as places of gathering, exchange, and belonging. As architects and planners, our role is to provide the physical framework for community life while remaining flexible enough to support the unexpected ways that people will inhabit and transform these spaces.
-    `,
-    author: "Elena Nakamura",
-    date: "2024-03-05",
-    readTime: "10 min read",
-    category: "URBAN PLANNING",
-    image: "/src/assets/blog-urban-planning.jpg"
+    category: "SUSTAINABILITY",
+    image: "/src/assets/project-defi.jpg"
   }
 ];

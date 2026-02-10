@@ -1,26 +1,26 @@
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
+import projectHliquity from "@/assets/project-hliquity.jpg";
+import projectDefi from "@/assets/project-defi.jpg";
+import projectDchf from "@/assets/project-dchf.jpg";
 
 const Portfolio = () => {
   const projects = [
     {
-      image: project1,
-      title: "MINIMAL RESIDENCE",
-      location: "NEW YORK, 2024",
-      description: "A contemporary home focusing on light, space, and material honesty"
+      image: projectHliquity,
+      title: "HLIQUITY PROTOCOL",
+      location: "HEDERA NETWORK, 2024",
+      description: "The first decentralized borrowing protocol on Hedera. Interest-free loans using HBAR as collateral, issuing HCHF—a stablecoin pegged to the Swiss Franc. Non-custodial, immutable, and governance-free."
     },
     {
-      image: project2,
-      title: "CORPORATE HEADQUARTERS",
-      location: "LONDON, 2023",
-      description: "Modern office space emphasizing collaboration and natural elements"
+      image: projectDchf,
+      title: "PRIVATE DIGITAL SWISS FRANC (dCHF)",
+      location: "ETHEREUM, 2018",
+      description: "The first-ever private digital Swiss franc, launched on March 20, 2018, post block 52911611. A pioneering stablecoin setting a new standard in the crypto landscape."
     },
     {
-      image: project3,
-      title: "CULTURAL CENTER",
-      location: "TOKYO, 2023",
-      description: "Public architecture that bridges tradition with contemporary design"
+      image: projectDefi,
+      title: "UNICEF SMART CONTRACT",
+      location: "ETHEREUM, 2017",
+      description: "Programmed the first-ever smart contract for UNICEF, marking a historic milestone in bringing blockchain technology to international humanitarian organisations."
     }
   ];
 
@@ -29,9 +29,9 @@ const Portfolio = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-7xl mx-auto">
           <div className="mb-20">
-            <h2 className="text-minimal text-muted-foreground mb-4">SELECTED WORK</h2>
+            <h2 className="text-minimal text-muted-foreground mb-4">KEY PROJECTS</h2>
             <h3 className="text-4xl md:text-6xl font-light text-architectural">
-              Our Projects
+              Our Milestones
             </h3>
           </div>
           
