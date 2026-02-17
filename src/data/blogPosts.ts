@@ -1,3 +1,7 @@
+import projectHliquity from "@/assets/project-hliquity.jpg";
+import projectDchf from "@/assets/project-dchf.jpg";
+import projectDefi from "@/assets/project-defi.jpg";
+
 export interface BlogPost {
   id: string;
   title: string;
@@ -80,7 +84,7 @@ HLiquity brings a proven DeFi model to Hedera with a unique Swiss Franc twist. B
     date: "2024-04-12",
     readTime: "8 min read",
     category: "DEFI",
-    image: "/src/assets/project-hliquity.jpg"
+    image: projectHliquity
   },
   {
     id: "digital-swiss-franc-history",
@@ -148,7 +152,7 @@ From the pioneering dCHF on Ethereum to the fully decentralised HCHF on Hedera, 
     date: "2024-03-28",
     readTime: "7 min read",
     category: "STABLECOIN",
-    image: "/src/assets/project-dchf.jpg"
+    image: projectDchf
   },
   {
     id: "sustainable-blockchain-future",
@@ -237,6 +241,6 @@ The future of finance must be sustainable. At Swisscoast, we don't just develop 
     date: "2024-02-15",
     readTime: "6 min read",
     category: "SUSTAINABILITY",
-    image: "/src/assets/project-defi.jpg"
+    image: projectDefi
   }
 ];
