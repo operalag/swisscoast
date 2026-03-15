@@ -1,0 +1,16 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Swisscoast",
+  "name_for_model": "swisscoast",
+  "description_for_human": "Swisscoast — Swiss blockchain consultancy specializing in Hedera Hashgraph, DeFi, and Web3 solutions.",
+  "description_for_model": "Swisscoast is a Swiss blockchain consulting firm focused on Hedera Hashgraph ecosystem development, decentralized finance (DeFi), tokenization, and Web3 infrastructure. Services include smart contract development, DLT strategy consulting, and Hashgraph-based project delivery.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "none"
+  },
+  "logo_url": "https://www.swisscoast.ch/favicon.jpeg",
+  "contact_email": "info@swisscoast.ch",
+  "legal_info_url": "https://www.swisscoast.ch/privacypolicy"
+}
