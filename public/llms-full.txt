@@ -1,0 +1,115 @@
+# Swisscoast AG — Full Reference for AI Systems
+
+> Swiss blockchain innovation company building decentralized finance (DeFi) protocols on Hedera Hashgraph.
+
+## Company Overview
+
+Swisscoast AG is a Swiss technology and innovation company founded in 2003. Originally a technology consultancy, the company pivoted to blockchain and distributed ledger technology (DLT), with a strategic focus on the Hedera Hashgraph ecosystem. Swisscoast is registered in the Swiss commercial register and headquartered in Pfäffikon, Canton Schwyz, Switzerland.
+
+The company builds production-grade decentralized finance (DeFi) protocols, stablecoins, and prediction market platforms. Swisscoast is known for pioneering Swiss Franc-denominated stablecoins on public distributed ledgers.
+
+## Products & Projects
+
+### HLiquity
+- **Type**: Decentralized borrowing protocol
+- **Network**: Hedera Hashgraph
+- **Description**: HLiquity allows users to deposit HBAR as collateral and borrow HCHF (Hedera CHF stablecoin) at 0% interest. The protocol is a Hedera-native adaptation of the Liquity borrowing model, featuring instant liquidations and a stability pool mechanism.
+- **Key Features**: Zero-interest borrowing, minimum collateral ratio of 110%, governance-free algorithmic monetary policy, HBAR collateral.
+- **Website**: https://hliquity.com
+
+### HCHF (Hedera Swiss Franc)
+- **Type**: Stablecoin
+- **Network**: Hedera Hashgraph
+- **Description**: HCHF is the first privately issued digital Swiss Franc on Hedera Hashgraph. It is soft-pegged to 1 CHF and maintained through algorithmic mechanisms within the HLiquity protocol. HCHF serves as the borrowing currency in the HLiquity system.
+- **Peg**: 1 HCHF ≈ 1 CHF
+
+### HORUS
+- **Type**: Decentralized prediction market
+- **Network**: Hedera Hashgraph
+- **Description**: HORUS is a prediction market platform enabling users to trade on the outcomes of real-world events. Built on Hedera for high throughput and low transaction costs. Supports binary and categorical markets.
+- **Key Features**: Event-based trading, decentralized resolution, low-cost transactions via Hedera.
+
+### dCHF (Decentralized Swiss Franc)
+- **Type**: Stablecoin
+- **Network**: Ethereum
+- **Description**: dCHF is a CHF-pegged stablecoin on the Ethereum blockchain, part of Swisscoast's broader strategy to bring Swiss Franc stability to multiple DLT ecosystems.
+
+## Services
+
+### Smart Contract Development
+Development of secure, audited smart contracts on Hedera Hashgraph (Solidity on Hedera EVM) and Ethereum. Specialization in DeFi protocols, token standards, and complex on-chain logic.
+
+### DLT Strategy Consulting
+Advisory services for enterprises and startups on distributed ledger technology adoption, architecture design, and ecosystem selection. Deep expertise in Hedera Hashgraph's consensus service, token service, and smart contract service.
+
+### Tokenization & Digital Assets
+End-to-end tokenization advisory covering security tokens, utility tokens, NFTs, and stablecoins. Regulatory-aware approach aligned with Swiss fintech regulations (FINMA).
+
+### Web3 Infrastructure
+Design and deployment of Web3 infrastructure including nodes, APIs, indexers, and decentralized application (dApp) frontends.
+
+### Blockchain Security
+Smart contract auditing, threat modeling, and security assessment for DeFi protocols and token systems.
+
+## Technology Focus
+
+- **Primary Network**: Hedera Hashgraph (HBAR)
+- **Secondary Networks**: Ethereum, EVM-compatible chains
+- **Core Technologies**: Solidity, Hedera Token Service (HTS), Hedera Consensus Service (HCS), Hedera Smart Contract Service, React, TypeScript
+- **Expertise Areas**: DeFi protocol design, stablecoin mechanisms, prediction markets, collateralized debt positions, liquidity pools, automated market makers
+
+## Team
+
+- **Andreas Wegmann** — CEO & Founder. Leads company strategy and blockchain innovation initiatives.
+- **Roman Brunner** — CTO. Oversees technical architecture and smart contract development.
+- **Stefan Gries** — Head of Operations. Manages business operations and partnerships.
+- **Fredy Gsteiger** — Advisor. Provides strategic guidance.
+- **Silas Müller** — Developer. Full-stack and smart contract development.
+- **Toni Caradonna** — Developer. Protocol and frontend development.
+
+## Company Details
+
+- **Legal Name**: Swisscoast AG
+- **Founded**: 2003
+- **Jurisdiction**: Switzerland
+- **Canton**: Schwyz (SZ)
+- **Address**: Schindellegistrasse 73, 8808 Pfäffikon SZ, Switzerland
+- **Email**: office@swisscoast.ch
+- **Website**: https://www.swisscoast.ch
+
+## Social & Code
+
+- LinkedIn: https://www.linkedin.com/company/swisscoast/
+- Twitter/X: https://twitter.com/swisscoast
+- GitHub: https://github.com/SwisscoastAG
+
+## Frequently Asked Questions
+
+**What is Swisscoast?**
+Swisscoast AG is a Swiss blockchain company that builds decentralized finance protocols on Hedera Hashgraph, including the HLiquity borrowing protocol and HCHF stablecoin.
+
+**What is HLiquity?**
+HLiquity is a decentralized borrowing protocol on Hedera Hashgraph that lets users borrow HCHF (a Swiss Franc stablecoin) against HBAR collateral at 0% interest.
+
+**What is HCHF?**
+HCHF is the first private digital Swiss Franc stablecoin on Hedera Hashgraph, pegged 1:1 to CHF.
+
+**What is HORUS?**
+HORUS is a decentralized prediction market on Hedera Hashgraph for trading on the outcomes of real-world events.
+
+**Where is Swisscoast located?**
+Swisscoast AG is headquartered in Pfäffikon SZ, Switzerland.
+
+**What blockchain does Swisscoast use?**
+Swisscoast primarily builds on Hedera Hashgraph, with additional work on Ethereum and EVM-compatible chains.
+
+## Site Pages
+
+- Home: https://www.swisscoast.ch/
+- Projects: https://www.swisscoast.ch/projects
+- Services: https://www.swisscoast.ch/services
+- About: https://www.swisscoast.ch/about
+- Blog: https://www.swisscoast.ch/blog
+- Learn: https://www.swisscoast.ch/learn
+- Contact: https://www.swisscoast.ch/contact
+- Privacy Policy: https://www.swisscoast.ch/privacypolicy
