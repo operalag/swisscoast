@@ -1,0 +1,50 @@
+# Swisscoast AG
+
+> Swiss blockchain innovation company building decentralized finance (DeFi) protocols on Hedera Hashgraph.
+
+## About
+
+Swisscoast AG is a Swiss technology company founded in 2003, headquartered in Pfäffikon SZ, Switzerland. The company specializes in distributed ledger technology (DLT) with a focus on the Hedera Hashgraph ecosystem. Swisscoast builds production-grade DeFi protocols, stablecoins, and prediction markets.
+
+## Core Products
+
+- **HLiquity**: A decentralized borrowing protocol on Hedera Hashgraph enabling users to borrow HCHF stablecoins against HBAR collateral at 0% interest.
+- **HCHF (Hedera Swiss Franc)**: The first private digital Swiss Franc stablecoin, pegged 1:1 to CHF, built on Hedera.
+- **HORUS**: A decentralized prediction market platform on Hedera Hashgraph for event-based trading.
+- **dCHF (Decentralized Swiss Franc)**: A CHF-pegged stablecoin on Ethereum, part of the broader Swiss Franc stablecoin ecosystem.
+
+## Services
+
+- Smart contract development on Hedera Hashgraph and EVM chains
+- DLT strategy consulting and architecture design
+- Tokenization and digital asset advisory
+- Web3 infrastructure and protocol development
+- Blockchain security auditing
+
+## Team
+
+- Andreas Wegmann — CEO & Founder
+- Roman Brunner — CTO
+- Stefan Gries — Head of Operations
+- Fredy Gsteiger — Advisor
+- Silas Müller — Developer
+- Toni Caradonna — Developer
+
+## Contact
+
+- Website: https://www.swisscoast.ch
+- Email: office@swisscoast.ch
+- Address: Schindellegistrasse 73, 8808 Pfäffikon SZ, Switzerland
+- LinkedIn: https://www.linkedin.com/company/swisscoast/
+- GitHub: https://github.com/SwisscoastAG
+
+## Links
+
+- [Projects](https://www.swisscoast.ch/projects)
+- [Services](https://www.swisscoast.ch/services)
+- [About](https://www.swisscoast.ch/about)
+- [Blog](https://www.swisscoast.ch/blog)
+- [Learn](https://www.swisscoast.ch/learn)
+- [Contact](https://www.swisscoast.ch/contact)
+- [Privacy Policy](https://www.swisscoast.ch/privacypolicy)
+- [Full details for LLMs](https://www.swisscoast.ch/llms-full.txt)
