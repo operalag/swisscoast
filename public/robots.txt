@@ -43,6 +43,12 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
+User-agent: ManusBot
+Allow: /
+
+User-agent: MiniMaxBot
+Allow: /
+
 User-agent: *
 Allow: /
 
