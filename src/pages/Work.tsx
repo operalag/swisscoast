@@ -4,10 +4,21 @@ import projectHliquity from "@/assets/project-hliquity.jpg";
 import projectDefi from "@/assets/project-defi.jpg";
 import projectDchf from "@/assets/project-dchf.jpg";
 import projectHorus from "@/assets/project-horus.jpg";
+import projectBidi from "@/assets/project-bidi.jpg";
 
 const Work = () => {
   const [activeCategory, setActiveCategory] = useState("ALL");
   const projects = [
+    {
+      image: projectBidi,
+      title: "BIDI — BIODIVERSITÄTS-GUTSCHEINE",
+      location: "GEMEINDE MURI BEI BERN, 2025",
+      category: "IMPACT",
+      description: "A municipal blockchain initiative for the Swiss community of Muri bei Bern. BIDI ('Biodiversitäts-Gutscheine') rewards volunteers for biodiversity work—hedge maintenance, invasive neophyte removal, riparian/wetland restoration—with on-chain vouchers. Each BIDI is transparent and verifiable on the blockchain and can be redeemed 1:1 (1 BIDI = 1 CHF) at participating local merchants and service providers, closing the loop between ecological action and the local economy.",
+      tech: "BLOCKCHAIN / WALLET / MERCHANT NETWORK",
+      year: "2025",
+      link: "https://muri.swisscoast.org"
+    },
     {
       image: projectHorus,
       title: "HORUS",
@@ -80,7 +91,7 @@ const Work = () => {
     }
   ];
 
-  const categories = ["ALL", "DEFI", "STABLECOIN", "SMART CONTRACT", "RESEARCH"];
+  const categories = ["ALL", "IMPACT", "DEFI", "STABLECOIN", "SMART CONTRACT", "RESEARCH"];
 
   const filteredProjects = activeCategory === "ALL" 
     ? projects 
