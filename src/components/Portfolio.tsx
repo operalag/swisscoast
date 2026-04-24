@@ -1,9 +1,17 @@
 import projectHliquity from "@/assets/project-hliquity.jpg";
 import projectDchf from "@/assets/project-dchf.jpg";
 import projectHorus from "@/assets/project-horus.jpg";
+import projectBidi from "@/assets/project-bidi.jpg";
 
 const Portfolio = () => {
   const projects = [
+    {
+      image: projectBidi,
+      title: "BIDI — BIODIVERSITÄTS-GUTSCHEINE",
+      location: "GEMEINDE MURI BEI BERN, 2025",
+      description: "A municipal blockchain initiative rewarding biodiversity work with on-chain vouchers. Volunteers earn BIDI tokens for nature conservation efforts—hedge care, neophyte removal, riparian restoration—and redeem them 1:1 (1 BIDI = 1 CHF) at participating local merchants. Every voucher is transparent and verifiable on the blockchain.",
+      link: "https://muri.swisscoast.org"
+    },
     {
       image: projectHorus,
       title: "HORUS",

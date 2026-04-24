@@ -8,6 +8,7 @@ Swisscoast AG is a Swiss technology company founded in 2003, headquartered in Pf
 
 ## Core Products
 
+- **BIDI (Biodiversitäts-Gutscheine)**: A municipal blockchain initiative for the Swiss community of Muri bei Bern. Volunteers earn on-chain BIDI vouchers for biodiversity work (hedge care, neophyte removal, riparian restoration) and redeem them 1:1 (1 BIDI = 1 CHF) at participating local merchants. Live at https://muri.swisscoast.org
 - **HLiquity**: A decentralized borrowing protocol on Hedera Hashgraph enabling users to borrow HCHF stablecoins against HBAR collateral at 0% interest.
 - **HCHF (Hedera Swiss Franc)**: The first private digital Swiss Franc stablecoin, pegged 1:1 to CHF, built on Hedera.
 - **HORUS**: A decentralized prediction market platform on Hedera Hashgraph for event-based trading.

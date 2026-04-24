@@ -10,6 +10,15 @@ The company builds production-grade decentralized finance (DeFi) protocols, stab
 
 ## Products & Projects
 
+### BIDI — Biodiversitäts-Gutscheine (Muri bei Bern)
+- **Type**: Municipal blockchain incentive system for biodiversity
+- **Partner**: Gemeinde Muri bei Bern (Swiss municipality)
+- **Description**: BIDI ("Biodiversitäts-Gutscheine" / biodiversity vouchers) is a real-world blockchain program that rewards citizens for hands-on nature conservation. Volunteers join local stewardship activities—hedge maintenance, invasive neophyte removal, riparian and wetland restoration—and earn BIDI tokens as recognition for their work. BIDI can then be spent at participating local merchants and service providers, closing the loop between ecological action and the local economy.
+- **Token Economics**: 1 BIDI = 1 CHF, redeemable at participating businesses
+- **Key Features**: On-chain transparency and verifiability, citizen wallet, merchant onboarding portal, guided onboarding tour, community-level impact tracking
+- **Status**: Live
+- **Website**: https://muri.swisscoast.org
+
 ### HLiquity
 - **Type**: Decentralized borrowing protocol
 - **Network**: Hedera Hashgraph
