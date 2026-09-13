@@ -13,6 +13,9 @@ import BlogPost from "./pages/BlogPost";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import NotFound from "./pages/NotFound";
 import Learn from "./pages/Learn";
+import CaseStudies from "./pages/CaseStudies";
+import ClimateActions from "./pages/ClimateActions";
+import MediaKit from "./pages/MediaKit";
 
 const queryClient = new QueryClient();
 
@@ -32,6 +35,9 @@ const App = () => (
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:id" element={<BlogPost />} />
           <Route path="/learn" element={<Learn />} />
+          <Route path="/case-studies" element={<CaseStudies />} />
+          <Route path="/climateactions" element={<ClimateActions />} />
+          <Route path="/media-kit" element={<MediaKit />} />
           <Route path="/privacypolicy" element={<PrivacyPolicy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

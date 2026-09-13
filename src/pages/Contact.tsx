@@ -1,9 +1,18 @@
+import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
+import Seo from "@/components/Seo";
 
 const Contact = () => {
   return (
     <div className="min-h-screen">
+      <Seo
+        title="Contact Swisscoast AG — Blockchain Company in Pfäffikon SZ"
+        description="Talk to Swisscoast AG, a Swiss blockchain and DeFi company in Pfäffikon SZ, Canton Schwyz. Email office@swisscoast.ch, or download our media kit for press enquiries."
+        path="/contact"
+        keywords="Swisscoast Kontakt, blockchain company Pfäffikon SZ, Blockchain Firma Schwyz, Swiss DLT partner, Hedera Entwickler Schweiz"
+      />
       <Navigation />
+
       <section className="pt-32 pb-32 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
@@ -69,6 +78,20 @@ const Contact = () => {
                     </a>
                   </div>
                 </div>
+
+                <div>
+                  <h3 className="text-minimal text-muted-foreground mb-6">PRESS &amp; MEDIA</h3>
+                  <div className="space-y-4">
+                    <Link to="/media-kit" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
+                      Media Kit — logo, team photos, project images
+                    </Link>
+                    <a href="/swisscoast-media-kit.pdf" download className="block text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">
+                      DOWNLOAD MEDIA KIT (PDF) ↓
+                    </a>
+                  </div>
+                </div>
+
+
                 
                 <div className="pt-12 border-t border-border">
                   <p className="text-muted-foreground">

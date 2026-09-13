@@ -1,5 +1,7 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
+import Seo from "@/components/Seo";
 import projectHliquity from "@/assets/project-hliquity.jpg";
 import projectDefi from "@/assets/project-defi.jpg";
 import projectDchf from "@/assets/project-dchf.jpg";
@@ -111,6 +113,31 @@ const Work = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Seo
+        title="Blockchain Projects in Switzerland — Swisscoast AG, Pfäffikon SZ"
+        description="Swiss blockchain projects by Swisscoast AG from Pfäffikon SZ: ClimateActions with MyBluePlanet, BIDI biodiversity vouchers for Gemeinde Muri bei Bern, HLiquity and the HCHF Swiss Franc stablecoin on Hedera, HORUS prediction markets and the first digital Swiss Franc."
+        path="/projects"
+        keywords="Blockchain Projekte Schweiz, Swiss blockchain projects, Blockchain Firma Pfäffikon SZ, Kanton Schwyz Blockchain, Hedera Hashgraph Schweiz, digitaler Schweizer Franken, Schweizer Stablecoin, Gemeinde Blockchain Schweiz, ClimateActions, BIDI, HLiquity, HCHF, HORUS"
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          name: "Swisscoast Projects",
+          url: "https://swisscoast.org/projects",
+          isPartOf: { "@type": "WebSite", name: "Swisscoast AG", url: "https://swisscoast.org" },
+          about: {
+            "@type": "Organization",
+            name: "Swisscoast AG",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "Schindellegistrasse 73",
+              addressLocality: "Pfäffikon",
+              addressRegion: "SZ",
+              postalCode: "8808",
+              addressCountry: "CH",
+            },
+          },
+        }}
+      />
       <Navigation />
       
       <section className="pt-24 sm:pt-32 pb-12 sm:pb-20">
@@ -121,13 +148,33 @@ const Work = () => {
                 OUR PROJECTS
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl">
-                From pioneering stablecoins to groundbreaking DeFi protocols and prediction markets—each project 
-                represents a milestone in our mission to shape the sustainable future of finance on Hedera Hashgraph.
+                Swiss blockchain projects built in Pfäffikon SZ, Canton Schwyz — for Swiss
+                municipalities, climate organisations and the Hedera Hashgraph ecosystem. From
+                pioneering Swiss Franc stablecoins to DeFi protocols, prediction markets and
+                municipal token programmes.
               </p>
+
+              <div className="flex flex-wrap gap-6 sm:gap-8 mt-8">
+                <Link
+                  to="/case-studies"
+                  className="text-minimal text-foreground hover:text-muted-foreground transition-colors duration-300 relative group py-2"
+                >
+                  READ THE CASE STUDIES →
+                  <span className="absolute bottom-0 left-0 w-full h-px bg-foreground group-hover:bg-muted-foreground transition-colors duration-300"></span>
+                </Link>
+                <Link
+                  to="/climateactions"
+                  className="text-minimal text-foreground hover:text-muted-foreground transition-colors duration-300 relative group py-2"
+                >
+                  CLIMATEACTIONS PRODUCT PAGE →
+                  <span className="absolute bottom-0 left-0 w-full h-px bg-foreground group-hover:bg-muted-foreground transition-colors duration-300"></span>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
       </section>
+
 
       <section className="pb-10 sm:pb-16">
         <div className="container mx-auto px-4 sm:px-6">

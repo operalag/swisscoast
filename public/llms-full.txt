@@ -92,7 +92,7 @@ Smart contract auditing, threat modeling, and security assessment for DeFi proto
 - **Canton**: Schwyz (SZ)
 - **Address**: Schindellegistrasse 73, 8808 Pfäffikon SZ, Switzerland
 - **Email**: office@swisscoast.ch
-- **Website**: https://www.swisscoast.ch
+- **Website**: https://swisscoast.org
 
 ## Social & Code
 
@@ -125,11 +125,14 @@ Swisscoast primarily builds on Hedera Hashgraph, with additional work on Ethereu
 
 ## Site Pages
 
-- Home: https://www.swisscoast.ch/
-- Projects: https://www.swisscoast.ch/projects
-- Services: https://www.swisscoast.ch/services
-- About: https://www.swisscoast.ch/about
-- Blog: https://www.swisscoast.ch/blog
-- Learn: https://www.swisscoast.ch/learn
-- Contact: https://www.swisscoast.ch/contact
-- Privacy Policy: https://www.swisscoast.ch/privacypolicy
+- Home: https://swisscoast.org/
+- Projects: https://swisscoast.org/projects
+- Case Studies: https://swisscoast.org/case-studies
+- ClimateActions product page: https://swisscoast.org/climateactions
+- Media Kit: https://swisscoast.org/media-kit
+- Services: https://swisscoast.org/services
+- About: https://swisscoast.org/about
+- Blog: https://swisscoast.org/blog
+- Learn: https://swisscoast.org/learn
+- Contact: https://swisscoast.org/contact
+- Privacy Policy: https://swisscoast.org/privacypolicy
