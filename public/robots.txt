@@ -52,4 +52,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://www.swisscoast.ch/sitemap.xml
+Sitemap: https://swisscoast.org/sitemap.xml

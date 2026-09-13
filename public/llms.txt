@@ -34,7 +34,7 @@ Swisscoast AG is a Swiss technology company founded in 2003, headquartered in Pf
 
 ## Contact
 
-- Website: https://www.swisscoast.ch
+- Website: https://swisscoast.org
 - Email: office@swisscoast.ch
 - Address: Schindellegistrasse 73, 8808 Pfäffikon SZ, Switzerland
 - LinkedIn: https://www.linkedin.com/company/swisscoast/
@@ -42,11 +42,14 @@ Swisscoast AG is a Swiss technology company founded in 2003, headquartered in Pf
 
 ## Links
 
-- [Projects](https://www.swisscoast.ch/projects)
-- [Services](https://www.swisscoast.ch/services)
-- [About](https://www.swisscoast.ch/about)
-- [Blog](https://www.swisscoast.ch/blog)
-- [Learn](https://www.swisscoast.ch/learn)
-- [Contact](https://www.swisscoast.ch/contact)
-- [Privacy Policy](https://www.swisscoast.ch/privacypolicy)
-- [Full details for LLMs](https://www.swisscoast.ch/llms-full.txt)
+- [Projects](https://swisscoast.org/projects)
+- [Case Studies](https://swisscoast.org/case-studies)
+- [ClimateActions product page](https://swisscoast.org/climateactions)
+- [Media Kit](https://swisscoast.org/media-kit)
+- [Services](https://swisscoast.org/services)
+- [About](https://swisscoast.org/about)
+- [Blog](https://swisscoast.org/blog)
+- [Learn](https://swisscoast.org/learn)
+- [Contact](https://swisscoast.org/contact)
+- [Privacy Policy](https://swisscoast.org/privacypolicy)
+- [Full details for LLMs](https://swisscoast.org/llms-full.txt)

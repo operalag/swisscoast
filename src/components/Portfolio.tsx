@@ -53,7 +53,28 @@ const Portfolio = () => {
             <h3 className="text-3xl sm:text-4xl md:text-6xl font-light text-architectural">
               Our Milestones
             </h3>
+            <div className="flex flex-wrap gap-6 sm:gap-8 mt-6 sm:mt-8">
+              <Link
+                to="/case-studies"
+                className="text-minimal text-foreground hover:text-muted-foreground transition-colors duration-300"
+              >
+                CASE STUDIES →
+              </Link>
+              <Link
+                to="/climateactions"
+                className="text-minimal text-foreground hover:text-muted-foreground transition-colors duration-300"
+              >
+                CLIMATEACTIONS →
+              </Link>
+              <Link
+                to="/projects"
+                className="text-minimal text-foreground hover:text-muted-foreground transition-colors duration-300"
+              >
+                ALL PROJECTS →
+              </Link>
+            </div>
           </div>
+
           
           <div className="space-y-16 sm:space-y-32">
             {projects.map((project, index) => (
