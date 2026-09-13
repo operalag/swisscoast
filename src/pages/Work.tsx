@@ -5,11 +5,23 @@ import projectDefi from "@/assets/project-defi.jpg";
 import projectDchf from "@/assets/project-dchf.jpg";
 import projectHorus from "@/assets/project-horus.jpg";
 import projectBidi from "@/assets/project-bidi.jpg";
+import projectClimateactions from "@/assets/project-climateactions.jpg";
 
 const Work = () => {
   const [activeCategory, setActiveCategory] = useState("ALL");
   const projects = [
     {
+      image: projectClimateactions,
+      title: "CLIMATEACTIONS",
+      location: "SWITZERLAND, 2026",
+      category: "IMPACT",
+      description: "Our latest product, built with the Swiss climate organisation MyBluePlanet: a mobile-first app that turns everyday climate decisions into measurable action. Users take part in local and national actions—clean-ups, planting days, the national food-waste week, mobility challenges—and grow a personal ClimateScore across nutrition, consumption, mobility and housing. Every completed action earns ClimateTokens, credited in the app and confirmed on the blockchain, redeemable with participating partners and shops (including SBB travel benefits). Teams, a community impact dashboard and a no-signup CO₂ quiz game make climate action social and playful, with passwordless email sign-up in about a minute.",
+      tech: "MOBILE PWA / BLOCKCHAIN TOKENS / GAMIFICATION",
+      year: "2026",
+      link: "https://climateactions.ch"
+    },
+    {
+
       image: projectBidi,
       title: "BIDI — BIODIVERSITÄTS-GUTSCHEINE",
       location: "GEMEINDE MURI BEI BERN, 2025",

@@ -1,6 +1,7 @@
 import projectHliquity from "@/assets/project-hliquity.jpg";
 import projectDchf from "@/assets/project-dchf.jpg";
 import projectDefi from "@/assets/project-defi.jpg";
+import projectClimateactions from "@/assets/project-climateactions.jpg";
 
 export interface BlogPost {
   id: string;
@@ -15,6 +16,72 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: "climateactions-climate-tokens-switzerland",
+    title: "ClimateActions: Turning Everyday Climate Decisions Into On-Chain Rewards",
+    excerpt: "Our newest product, built with MyBluePlanet: a mobile-first Swiss climate app where local actions earn ClimateTokens, confirmed on the blockchain and redeemable with local partners.",
+    content: `
+# ClimateActions: Turning Everyday Climate Decisions Into On-Chain Rewards
+
+ClimateActions is our latest product—a mobile-first app created with the Swiss climate organisation MyBluePlanet. Its promise is simple: *smart für dich. Und fürs Klima.* Smart for you, and for the climate.
+
+Instead of asking people to read another report about emissions, ClimateActions asks them to do something concrete in their own neighbourhood—and rewards them for it.
+
+## How It Works
+
+The app follows a three-step loop:
+
+1. **Take action.** Join local actions: clean-ups, planting days, climate-protection projects, food-waste and mobility challenges.
+2. **Earn ClimateTokens.** Every completed action credits ClimateTokens in the app, confirmed on the blockchain.
+3. **Redeem locally.** Tokens are spent with participating partners and shops nearby—for example SBB travel benefits.
+
+That loop is what makes climate action tangible: the effort is local, the record is verifiable, and the reward stays in the regional economy.
+
+## Your ClimateScore
+
+Each user builds a personal ClimateScore that grows with every action, large or small. The score is broken down into four everyday areas:
+
+- **Ernährung** — nutrition
+- **Konsum** — consumption
+- **Mobilität** — mobility
+- **Wohnen** — housing
+
+Because progress is visible and comparable with the community, small habits become a measurable trajectory rather than a vague intention.
+
+## Built for Community, Not Solo Heroics
+
+Nobody saves the planet alone. ClimateActions puts teams, community actions and a shared impact view at the centre, so participants can see the aggregate contribution of the MyBluePlanet community and not just their own number.
+
+There is also a playful entry point: the **CO₂ Duel**, a quick quiz game—what causes more CO₂, the chicken or the cheeseburger?—that anyone can play without an account and share with friends.
+
+## Designed for the Phone, and for Zero Friction
+
+ClimateActions is built for smartphones, usable straight from the browser or installed as an app. Sign-up is deliberately frictionless:
+
+- Free, no subscription
+- No password—an email address is enough
+- Roughly one minute to get started
+- Actions in your own region
+
+## Why Blockchain Here
+
+Token rewards only work if people trust them. Recording ClimateToken issuance on a public ledger means the record of who earned what, and what was redeemed, is transparent and tamper-resistant. It is the same principle behind our BIDI biodiversity vouchers for the municipality of Muri bei Bern: use distributed ledger technology where verifiability genuinely matters, and keep it invisible everywhere else.
+
+## From Protocols to Real-World Impact
+
+ClimateActions sits alongside our DeFi work—HLiquity, HCHF, HORUS—as proof that the same engineering discipline applies to civic and environmental programmes. Tokens do not have to be speculative instruments; they can be a receipt for real work done in a real place.
+
+## Try It
+
+ClimateActions is live at [climateactions.ch](https://climateactions.ch). Open it on your phone, register in a minute, and start your first action.
+    `,
+    author: "Swisscoast Team",
+    date: "2026-09-15",
+    readTime: "5 min read",
+    category: "IMPACT",
+    image: projectClimateactions
+  },
+
   {
     id: "hliquity-defi-borrowing-hedera",
     title: "How Interest-Free Borrowing Works on HLiquity",
