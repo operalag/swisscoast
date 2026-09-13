@@ -1,9 +1,18 @@
+import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
+import Seo from "@/components/Seo";
 
 const Contact = () => {
   return (
     <div className="min-h-screen">
+      <Seo
+        title="Contact Swisscoast AG — Blockchain Company in Pfäffikon SZ"
+        description="Talk to Swisscoast AG, a Swiss blockchain and DeFi company in Pfäffikon SZ, Canton Schwyz. Email office@swisscoast.ch, or download our media kit for press enquiries."
+        path="/contact"
+        keywords="Swisscoast Kontakt, blockchain company Pfäffikon SZ, Blockchain Firma Schwyz, Swiss DLT partner, Hedera Entwickler Schweiz"
+      />
       <Navigation />
+
       <section className="pt-32 pb-32 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
