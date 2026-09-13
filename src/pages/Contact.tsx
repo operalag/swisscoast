@@ -78,6 +78,20 @@ const Contact = () => {
                     </a>
                   </div>
                 </div>
+
+                <div>
+                  <h3 className="text-minimal text-muted-foreground mb-6">PRESS &amp; MEDIA</h3>
+                  <div className="space-y-4">
+                    <Link to="/media-kit" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
+                      Media Kit — logo, team photos, project images
+                    </Link>
+                    <a href="/swisscoast-media-kit.pdf" download className="block text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300">
+                      DOWNLOAD MEDIA KIT (PDF) ↓
+                    </a>
+                  </div>
+                </div>
+
+
                 
                 <div className="pt-12 border-t border-border">
                   <p className="text-muted-foreground">
