@@ -10,6 +10,14 @@ The company builds production-grade decentralized finance (DeFi) protocols, stab
 
 ## Products & Projects
 
+### ClimateActions — Smart für dich. Und fürs Klima. (latest product)
+- **Type**: Mobile-first climate action app with blockchain-confirmed reward tokens
+- **Partner**: MyBluePlanet (Swiss climate protection organisation)
+- **Description**: ClimateActions is Swisscoast's newest product. Users join local and national climate actions — clean-ups, planting days, the national food-waste week, mobility and consumption challenges — and grow a personal ClimateScore across four everyday areas: nutrition (Ernährung), consumption (Konsum), mobility (Mobilität) and housing (Wohnen). Every completed action credits ClimateTokens in the app, confirmed on the blockchain, which are redeemed with participating local partners and shops (for example SBB travel benefits).
+- **Key Features**: Smartphone-first (browser or installable app), personal ClimateScore, community and team impact dashboard, local partner redemption network, CO₂ Duel quiz game playable without an account, free sign-up with no password (email only, about one minute).
+- **Status**: Live
+- **Website**: https://climateactions.ch
+
 ### BIDI — Biodiversitäts-Gutscheine (Muri bei Bern)
 - **Type**: Municipal blockchain incentive system for biodiversity
 - **Partner**: Gemeinde Muri bei Bern (Swiss municipality)
