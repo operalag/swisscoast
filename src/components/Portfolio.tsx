@@ -2,9 +2,17 @@ import projectHliquity from "@/assets/project-hliquity.jpg";
 import projectDchf from "@/assets/project-dchf.jpg";
 import projectHorus from "@/assets/project-horus.jpg";
 import projectBidi from "@/assets/project-bidi.jpg";
+import projectClimateactions from "@/assets/project-climateactions.jpg";
 
 const Portfolio = () => {
   const projects = [
+    {
+      image: projectClimateactions,
+      title: "CLIMATEACTIONS — SMART FÜR DICH. UND FÜRS KLIMA.",
+      location: "SWITZERLAND, WITH MYBLUEPLANET, 2026",
+      description: "Our latest product: a mobile-first climate app built with the Swiss climate organisation MyBluePlanet. People join local climate actions—clean-ups, planting, food-waste and mobility challenges—grow a personal ClimateScore across nutrition, consumption, mobility and housing, and earn ClimateTokens that are confirmed on the blockchain and redeemed with local partners. Includes team challenges, a community impact dashboard and the passwordless one-minute sign-up.",
+      link: "https://climateactions.ch"
+    },
     {
       image: projectBidi,
       title: "BIDI — BIODIVERSITÄTS-GUTSCHEINE",
@@ -12,6 +20,7 @@ const Portfolio = () => {
       description: "A municipal blockchain initiative rewarding biodiversity work with on-chain vouchers. Volunteers earn BIDI tokens for nature conservation efforts—hedge care, neophyte removal, riparian restoration—and redeem them 1:1 (1 BIDI = 1 CHF) at participating local merchants. Every voucher is transparent and verifiable on the blockchain.",
       link: "https://muri.swisscoast.org"
     },
+
     {
       image: projectHorus,
       title: "HORUS",
