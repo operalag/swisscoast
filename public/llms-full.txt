@@ -102,6 +102,9 @@ Smart contract auditing, threat modeling, and security assessment for DeFi proto
 
 ## Frequently Asked Questions
 
+**What is ClimateActions?**
+ClimateActions (climateactions.ch) is Swisscoast's latest product, built with MyBluePlanet: a mobile-first Swiss climate app where users complete local climate actions and earn ClimateTokens, confirmed on the blockchain and redeemable with participating local partners.
+
 **What is Swisscoast?**
 Swisscoast AG is a Swiss blockchain company that builds decentralized finance protocols on Hedera Hashgraph, including the HLiquity borrowing protocol and HCHF stablecoin.
 
