@@ -1,21 +1,6 @@
 import Navigation from "@/components/Navigation";
-import teamToni from "@/assets/team-toni.jpg";
-import teamRoman from "@/assets/team-roman.png";
-import teamFredy from "@/assets/team-fredy.png";
-import teamStefan from "@/assets/team-stefan.jpg";
-import teamSilas from "@/assets/team-silas.jpg";
-import teamAndreas from "@/assets/team-andreas.png";
 
 const About = () => {
-  const team = [
-    { name: "Toni Caradonna", role: "President of the Board", linkedin: "https://www.linkedin.com/in/caradonna/", image: teamToni },
-    { name: "Roman Eyholzer", role: "CFO & Board", linkedin: "https://www.linkedin.com/in/roman-eyholzer-3053a1114/", image: teamRoman },
-    { name: "Silas Stulz", role: "CTO", linkedin: "https://www.linkedin.com/in/silas-stulz-96576214b/", image: teamSilas },
-    { name: "Stefan Deiss", role: "Board", linkedin: "https://www.linkedin.com/in/stefandeiss/", image: teamStefan },
-    { name: "Fredy Camacho", role: "CMO & PM", linkedin: null, image: teamFredy },
-    { name: "Dr. iur. Andreas Gmünder", role: "CLO", linkedin: "https://www.linkedin.com/in/andreasgmuender/", image: teamAndreas },
-  ];
-
   const milestones = [
     { year: "2003", event: "Swisscoast AG founded in Pfäffikon SZ" },
     { year: "2017", event: "First-ever smart contract for UNICEF" },
