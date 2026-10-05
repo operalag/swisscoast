@@ -97,41 +97,6 @@ const About = () => {
                   </div>
                 ))}
               </div>
-            </div>
-
-            {/* Team */}
-            <div>
-              <h3 className="text-minimal text-muted-foreground mb-4">TEAM</h3>
-              <h4 className="text-3xl sm:text-4xl md:text-5xl font-light text-architectural mb-10 sm:mb-16">
-                Meet the Minds Behind Swisscoast
-              </h4>
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-6 sm:gap-12">
-                {team.map((member, index) => (
-                  <div key={index} className="group">
-                    <div className="w-full aspect-square bg-muted mb-4 sm:mb-6 overflow-hidden">
-                      <img 
-                        src={member.image} 
-                        alt={member.name}
-                        className="w-full h-full object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-500"
-                        loading="lazy"
-                      />
-                    </div>
-                    <h5 className="text-sm sm:text-lg font-medium mb-1">{member.name}</h5>
-                    <p className="text-minimal text-muted-foreground mb-2 sm:mb-3">{member.role}</p>
-                    {member.linkedin && (
-                      <a 
-                        href={member.linkedin} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300"
-                      >
-                        LINKEDIN →
-                      </a>
-                    )}
-                  </div>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </section>
