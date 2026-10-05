@@ -1,21 +1,6 @@
 import Navigation from "@/components/Navigation";
-import teamToni from "@/assets/team-toni.jpg";
-import teamRoman from "@/assets/team-roman.png";
-import teamFredy from "@/assets/team-fredy.png";
-import teamStefan from "@/assets/team-stefan.jpg";
-import teamSilas from "@/assets/team-silas.jpg";
-import teamAndreas from "@/assets/team-andreas.png";
 
 const About = () => {
-  const team = [
-    { name: "Toni Caradonna", role: "President of the Board", linkedin: "https://www.linkedin.com/in/caradonna/", image: teamToni },
-    { name: "Roman Eyholzer", role: "CFO & Board", linkedin: "https://www.linkedin.com/in/roman-eyholzer-3053a1114/", image: teamRoman },
-    { name: "Silas Stulz", role: "CTO", linkedin: "https://www.linkedin.com/in/silas-stulz-96576214b/", image: teamSilas },
-    { name: "Stefan Deiss", role: "Board", linkedin: "https://www.linkedin.com/in/stefandeiss/", image: teamStefan },
-    { name: "Fredy Camacho", role: "CMO & PM", linkedin: null, image: teamFredy },
-    { name: "Dr. iur. Andreas Gmünder", role: "CLO", linkedin: "https://www.linkedin.com/in/andreasgmuender/", image: teamAndreas },
-  ];
-
   const milestones = [
     { year: "2003", event: "Swisscoast AG founded in Pfäffikon SZ" },
     { year: "2017", event: "First-ever smart contract for UNICEF" },
@@ -112,41 +97,7 @@ const About = () => {
                   </div>
                 ))}
               </div>
-            </div>
-
-            {/* Team */}
-            <div>
-              <h3 className="text-minimal text-muted-foreground mb-4">TEAM</h3>
-              <h4 className="text-3xl sm:text-4xl md:text-5xl font-light text-architectural mb-10 sm:mb-16">
-                Meet the Minds Behind Swisscoast
-              </h4>
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-6 sm:gap-12">
-                {team.map((member, index) => (
-                  <div key={index} className="group">
-                    <div className="w-full aspect-square bg-muted mb-4 sm:mb-6 overflow-hidden">
-                      <img 
-                        src={member.image} 
-                        alt={member.name}
-                        className="w-full h-full object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-500"
-                        loading="lazy"
-                      />
-                    </div>
-                    <h5 className="text-sm sm:text-lg font-medium mb-1">{member.name}</h5>
-                    <p className="text-minimal text-muted-foreground mb-2 sm:mb-3">{member.role}</p>
-                    {member.linkedin && (
-                      <a 
-                        href={member.linkedin} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-minimal text-muted-foreground hover:text-foreground transition-colors duration-300"
-                      >
-                        LINKEDIN →
-                      </a>
-                    )}
-                  </div>
-                ))}
-              </div>
-            </div>
+          </div>
           </div>
         </div>
       </section>

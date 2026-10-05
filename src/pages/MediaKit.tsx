@@ -3,15 +3,6 @@ import Navigation from "@/components/Navigation";
 import Seo from "@/components/Seo";
 
 const MediaKit = () => {
-  const teamAssets = [
-    { name: "Toni Caradonna", role: "President of the Board", file: "/media-kit/team-toni.jpg" },
-    { name: "Roman Eyholzer", role: "CFO & Board", file: "/media-kit/team-roman.png" },
-    { name: "Silas Stulz", role: "CTO", file: "/media-kit/team-silas.jpg" },
-    { name: "Stefan Deiss", role: "Board", file: "/media-kit/team-stefan.jpg" },
-    { name: "Fredy Camacho", role: "CMO & PM", file: "/media-kit/team-fredy.png" },
-    { name: "Dr. iur. Andreas Gmünder", role: "CLO", file: "/media-kit/team-andreas.png" },
-  ];
-
   const projectAssets = [
     { name: "ClimateActions", file: "/media-kit/project-climateactions.jpg" },
     { name: "BIDI — Muri bei Bern", file: "/media-kit/project-bidi.jpg" },
@@ -32,17 +23,17 @@ const MediaKit = () => {
   return (
     <div className="min-h-screen bg-background">
       <Seo
-        title="Media Kit — Logo, Team Photos & Press PDF | Swisscoast AG"
-        description="Download the Swisscoast AG media kit: logo files, team portraits, project imagery, company facts and a press PDF. Swiss blockchain company based in Pfäffikon SZ."
+        title="Media Kit — Logo, Project Images & Press PDF | Swisscoast AG"
+        description="Download the Swisscoast AG media kit: logo files, project imagery, company facts and a press PDF. Swiss blockchain company based in Pfäffikon SZ."
         path="/media-kit"
-        keywords="Swisscoast media kit, Swisscoast logo download, press kit Swiss blockchain, Medienmappe, Pressebilder, Swisscoast AG Pfäffikon"
+        keywords="Swisscoast media kit, Swisscoast logo download, press kit Swiss blockchain, Medienmappe, Swisscoast AG Pfäffikon"
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "WebPage",
           name: "Swisscoast AG Media Kit",
           url: "https://swisscoast.org/media-kit",
           description:
-            "Logo files, team portraits, project imagery and a downloadable press PDF for Swisscoast AG.",
+            "Logo files, project imagery and a downloadable press PDF for Swisscoast AG.",
         }}
       />
       <Navigation />
@@ -55,7 +46,7 @@ const MediaKit = () => {
               Media Kit
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mb-8">
-              Everything you need to write about Swisscoast AG: logo, team portraits, project
+              Everything you need to write about Swisscoast AG: logo, project
               imagery, company facts and a two-page press PDF.
             </p>
             <div className="flex flex-wrap gap-6 sm:gap-8">
@@ -120,37 +111,6 @@ const MediaKit = () => {
                   MyBluePlanet and BIDI biodiversity vouchers for Gemeinde Muri bei Bern.
                 </p>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="pb-16 sm:pb-24">
-        <div className="container mx-auto px-4 sm:px-6">
-          <div className="max-w-7xl mx-auto">
-            <h2 className="text-minimal text-muted-foreground mb-6">TEAM PHOTOS</h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 sm:gap-10">
-              {teamAssets.map((member) => (
-                <div key={member.name} className="group">
-                  <div className="w-full aspect-square bg-muted mb-3 overflow-hidden">
-                    <img
-                      src={member.file}
-                      alt={`${member.name}, ${member.role}, Swisscoast AG`}
-                      className="w-full h-full object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-500"
-                      loading="lazy"
-                    />
-                  </div>
-                  <h3 className="text-sm sm:text-base font-medium">{member.name}</h3>
-                  <p className="text-minimal text-muted-foreground mb-2">{member.role}</p>
-                  <a
-                    href={member.file}
-                    download
-                    className="text-minimal text-foreground hover:text-muted-foreground transition-colors duration-300"
-                  >
-                    DOWNLOAD ↓
-                  </a>
-                </div>
-              ))}
             </div>
           </div>
         </div>
