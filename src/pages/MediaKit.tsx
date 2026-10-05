@@ -3,15 +3,6 @@ import Navigation from "@/components/Navigation";
 import Seo from "@/components/Seo";
 
 const MediaKit = () => {
-  const teamAssets = [
-    { name: "Toni Caradonna", role: "President of the Board", file: "/media-kit/team-toni.jpg" },
-    { name: "Roman Eyholzer", role: "CFO & Board", file: "/media-kit/team-roman.png" },
-    { name: "Silas Stulz", role: "CTO", file: "/media-kit/team-silas.jpg" },
-    { name: "Stefan Deiss", role: "Board", file: "/media-kit/team-stefan.jpg" },
-    { name: "Fredy Camacho", role: "CMO & PM", file: "/media-kit/team-fredy.png" },
-    { name: "Dr. iur. Andreas Gmünder", role: "CLO", file: "/media-kit/team-andreas.png" },
-  ];
-
   const projectAssets = [
     { name: "ClimateActions", file: "/media-kit/project-climateactions.jpg" },
     { name: "BIDI — Muri bei Bern", file: "/media-kit/project-bidi.jpg" },
@@ -32,17 +23,17 @@ const MediaKit = () => {
   return (
     <div className="min-h-screen bg-background">
       <Seo
-        title="Media Kit — Logo, Team Photos & Press PDF | Swisscoast AG"
-        description="Download the Swisscoast AG media kit: logo files, team portraits, project imagery, company facts and a press PDF. Swiss blockchain company based in Pfäffikon SZ."
+        title="Media Kit — Logo, Project Images & Press PDF | Swisscoast AG"
+        description="Download the Swisscoast AG media kit: logo files, project imagery, company facts and a press PDF. Swiss blockchain company based in Pfäffikon SZ."
         path="/media-kit"
-        keywords="Swisscoast media kit, Swisscoast logo download, press kit Swiss blockchain, Medienmappe, Pressebilder, Swisscoast AG Pfäffikon"
+        keywords="Swisscoast media kit, Swisscoast logo download, press kit Swiss blockchain, Medienmappe, Swisscoast AG Pfäffikon"
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "WebPage",
           name: "Swisscoast AG Media Kit",
           url: "https://swisscoast.org/media-kit",
           description:
-            "Logo files, team portraits, project imagery and a downloadable press PDF for Swisscoast AG.",
+            "Logo files, project imagery and a downloadable press PDF for Swisscoast AG.",
         }}
       />
       <Navigation />
