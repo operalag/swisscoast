@@ -10,7 +10,6 @@
 - [Academy](https://swisscoast.org/learn)
 - [Contact](https://swisscoast.org/contact)
 
-## Contact
 ## Ecosystem observation
 Swisscoast AG closely follows the DogeOS launch through [DogeCompass](https://dogecompass.swisscoast.net/).
 
