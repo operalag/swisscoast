@@ -2,102 +2,97 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Minimal Architecture Design System - Black & White Excellence */
+/* Swiss Ocean Design System — deep navy, ocean blue, sky blue, snow white */
 
 @layer base {
   :root {
-    /* Pure Architecture Palette */
-    --background: 0 0% 100%;
-    --foreground: 0 0% 0%;
-    
+    --background: 210 40% 99%;          /* snow */
+    --foreground: 215 65% 14%;          /* deep navy */
+
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 0%;
-    
+    --card-foreground: 215 65% 14%;
+
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 0%;
-    
-    /* Primary: Pure Black */
-    --primary: 0 0% 0%;
-    --primary-foreground: 0 0% 100%;
-    
-    /* Secondary: Pure White */
-    --secondary: 0 0% 100%;
-    --secondary-foreground: 0 0% 0%;
-    
-    /* Muted: Subtle Gray */
-    --muted: 0 0% 96%;
-    --muted-foreground: 0 0% 20%;
-    
-    /* Accent: Elegant Gray */
-    --accent: 0 0% 95%;
-    --accent-foreground: 0 0% 0%;
-    
+    --popover-foreground: 215 65% 14%;
+
+    --primary: 212 80% 32%;             /* ocean blue */
+    --primary-foreground: 210 40% 99%;
+
+    --secondary: 205 85% 94%;           /* pale sky */
+    --secondary-foreground: 215 65% 18%;
+
+    --muted: 206 60% 95%;               /* glacier mist */
+    --muted-foreground: 214 30% 36%;
+
+    --accent: 199 89% 56%;              /* sky blue */
+    --accent-foreground: 215 65% 12%;
+
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
-    
-    --border: 0 0% 90%;
-    --input: 0 0% 95%;
-    --ring: 0 0% 0%;
+
+    --border: 208 45% 87%;
+    --input: 208 45% 92%;
+    --ring: 205 85% 45%;
+
+    --snow: 210 40% 99%;
+    --navy: 216 70% 10%;
+    --ocean: 212 80% 32%;
+    --sky: 199 89% 56%;
 
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
-    
-    /* Architecture Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(0 0% 0% / 0.8), hsl(0 0% 0% / 0.4));
-    --gradient-overlay: linear-gradient(180deg, hsl(0 0% 0% / 0.9), hsl(0 0% 0% / 0.1));
-    
-    /* Elegant Shadows */
-    --shadow-architectural: 0 25px 50px -12px hsl(0 0% 0% / 0.25);
-    --shadow-elegant: 0 10px 30px -10px hsl(0 0% 0% / 0.15);
-    
-    /* Smooth Transitions */
+
+    --gradient-hero: linear-gradient(135deg, hsl(var(--navy)), hsl(var(--ocean)));
+    --gradient-overlay: linear-gradient(180deg, hsl(216 70% 10% / 0.75) 0%, hsl(212 80% 25% / 0.35) 55%, hsl(199 89% 56% / 0.1) 100%);
+    --gradient-ocean: linear-gradient(135deg, hsl(var(--navy)) 0%, hsl(var(--ocean)) 60%, hsl(var(--sky)) 130%);
+    --gradient-sky: linear-gradient(180deg, hsl(205 85% 94%) 0%, hsl(var(--snow)) 100%);
+
+    --shadow-architectural: 0 25px 50px -12px hsl(215 65% 14% / 0.25);
+    --shadow-elegant: 0 10px 30px -10px hsl(212 80% 32% / 0.25);
+
     --transition-smooth: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
     --transition-fast: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
   .dark {
-    --background: 0 0% 0%;
-    --foreground: 0 0% 100%;
-    
-    --card: 0 0% 5%;
-    --card-foreground: 0 0% 100%;
-    
-    --popover: 0 0% 5%;
-    --popover-foreground: 0 0% 100%;
-    
-    --primary: 0 0% 100%;
-    --primary-foreground: 0 0% 0%;
-    
-    --secondary: 0 0% 10%;
-    --secondary-foreground: 0 0% 100%;
-    
-    --muted: 0 0% 10%;
-    --muted-foreground: 0 0% 60%;
-    
-    --accent: 0 0% 15%;
-    --accent-foreground: 0 0% 100%;
-    
+    --background: 216 70% 8%;
+    --foreground: 205 60% 96%;
+
+    --card: 216 60% 12%;
+    --card-foreground: 205 60% 96%;
+
+    --popover: 216 60% 12%;
+    --popover-foreground: 205 60% 96%;
+
+    --primary: 199 89% 60%;
+    --primary-foreground: 216 70% 8%;
+
+    --secondary: 214 55% 16%;
+    --secondary-foreground: 205 60% 96%;
+
+    --muted: 214 55% 14%;
+    --muted-foreground: 205 30% 72%;
+
+    --accent: 199 89% 56%;
+    --accent-foreground: 216 70% 8%;
+
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
-    
-    --border: 0 0% 15%;
-    --input: 0 0% 10%;
-    --ring: 0 0% 100%;
+
+    --border: 214 45% 20%;
+    --input: 214 45% 18%;
+    --ring: 199 89% 60%;
+
+    --gradient-sky: linear-gradient(180deg, hsl(214 55% 14%) 0%, hsl(216 70% 8%) 100%);
+
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -117,32 +112,37 @@
   body {
     @apply bg-background text-foreground font-sans antialiased;
   }
-  
-  /* Architectural Typography */
+
   .text-architectural {
     @apply tracking-[-0.02em] leading-[1.1];
   }
-  
+
   .text-minimal {
     @apply tracking-wide uppercase text-xs font-medium;
   }
-  
-  /* Hero Image Overlay */
+
   .hero-overlay {
     background: var(--gradient-overlay);
   }
-  
-  /* Smooth Reveal Animation */
+
+  .bg-ocean {
+    background: var(--gradient-ocean);
+  }
+
+  .bg-sky {
+    background: var(--gradient-sky);
+  }
+
   .reveal {
     @apply opacity-0 translate-y-8;
     animation: reveal 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   }
-  
+
   .reveal-delayed {
     @apply opacity-0 translate-y-8;
     animation: reveal 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
   }
-  
+
   @keyframes reveal {
     to {
       @apply opacity-100 translate-y-0;

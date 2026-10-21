@@ -1,55 +1,15 @@
 # Swisscoast AG
 
-> Swiss blockchain innovation company building decentralized finance (DeFi) protocols on Hedera Hashgraph.
+> Swiss technology company headquartered in Pfäffikon SZ, Switzerland. Founded in 2003 as Scenic Swisscoast GmbH (UID CHE-110.173.134); converted to Swisscoast AG in 2024. Serves universities, enterprises, DLT economies and foundations worldwide with advisory, software engineering, distributed ledger technology and research.
 
-## About
-
-Swisscoast AG is a Swiss technology company founded in 2003, headquartered in Pfäffikon SZ, Switzerland. The company specializes in distributed ledger technology (DLT) with a focus on the Hedera Hashgraph ecosystem. Swisscoast builds production-grade DeFi protocols, stablecoins, and prediction markets.
-
-## Core Products
-
-- **ClimateActions**: The latest Swisscoast product, built with the Swiss climate organisation MyBluePlanet. A mobile-first climate app where users take part in local climate actions (clean-ups, planting, food-waste and mobility challenges), grow a personal ClimateScore across nutrition, consumption, mobility and housing, and earn ClimateTokens that are confirmed on the blockchain and redeemed with participating local partners (e.g. SBB benefits). Free, passwordless email sign-up. Live at https://climateactions.ch
-- **BIDI (Biodiversitäts-Gutscheine)**: A municipal blockchain initiative for the Swiss community of Muri bei Bern. Volunteers earn on-chain BIDI vouchers for biodiversity work (hedge care, neophyte removal, riparian restoration) and redeem them 1:1 (1 BIDI = 1 CHF) at participating local merchants. Live at https://muri.swisscoast.org
-- **HLiquity**: A decentralized borrowing protocol on Hedera Hashgraph enabling users to borrow HCHF stablecoins against HBAR collateral at 0% interest.
-- **HCHF (Hedera Swiss Franc)**: The first private digital Swiss Franc stablecoin, pegged 1:1 to CHF, built on Hedera.
-- **HORUS**: A decentralized prediction market platform on Hedera Hashgraph for event-based trading.
-- **dCHF (Decentralized Swiss Franc)**: A CHF-pegged stablecoin on Ethereum, part of the broader Swiss Franc stablecoin ecosystem.
-
-## Services
-
-- Smart contract development on Hedera Hashgraph and EVM chains
-- DLT strategy consulting and architecture design
-- Tokenization and digital asset advisory
-- Web3 infrastructure and protocol development
-- Blockchain security auditing
-
-## Team
-
-- Andreas Wegmann — CEO & Founder
-- Roman Brunner — CTO
-- Stefan Gries — Head of Operations
-- Fredy Gsteiger — Advisor
-- Silas Müller — Developer
-- Toni Caradonna — Developer
+## Pages
+- [Home](https://swisscoast.org/)
+- [Expertise](https://swisscoast.org/services)
+- [About](https://swisscoast.org/about)
+- [Insights](https://swisscoast.org/blog)
+- [Academy](https://swisscoast.org/learn)
+- [Contact](https://swisscoast.org/contact)
 
 ## Contact
-
-- Website: https://swisscoast.org
 - Email: office@swisscoast.ch
 - Address: Schindellegistrasse 73, 8808 Pfäffikon SZ, Switzerland
-- LinkedIn: https://www.linkedin.com/company/swisscoast/
-- GitHub: https://github.com/SwisscoastAG
-
-## Links
-
-- [Projects](https://swisscoast.org/projects)
-- [Case Studies](https://swisscoast.org/case-studies)
-- [ClimateActions product page](https://swisscoast.org/climateactions)
-- [Media Kit](https://swisscoast.org/media-kit)
-- [Services](https://swisscoast.org/services)
-- [About](https://swisscoast.org/about)
-- [Blog](https://swisscoast.org/blog)
-- [Learn](https://swisscoast.org/learn)
-- [Contact](https://swisscoast.org/contact)
-- [Privacy Policy](https://swisscoast.org/privacypolicy)
-- [Full details for LLMs](https://swisscoast.org/llms-full.txt)

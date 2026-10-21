@@ -1,72 +1,48 @@
 import Navigation from "@/components/Navigation";
+import Seo from "@/components/Seo";
+import { audiences } from "@/components/Services";
+
+const capabilities = [
+  ["ADVISORY", "Independent guidance on technology strategy and digital transformation."],
+  ["SOFTWARE ENGINEERING", "Design, development and delivery of reliable software products."],
+  ["DISTRIBUTED LEDGERS", "Architecture and integration for DLT-based systems."],
+  ["RESEARCH & EDUCATION", "Studies, workshops and learning programmes on emerging technology."],
+];
 
 const Services = () => {
-  const services = [
-    {
-      number: "01",
-      title: "DECENTRALIZED FINANCE",
-      description: "Pioneering DeFi applications and protocols that transform the financial landscape. From borrowing protocols to liquidity solutions—we make decentralized finance accessible and seamlessly integrated into business operations."
-    },
-    {
-      number: "02", 
-      title: "STABLE CURRENCY SOLUTIONS",
-      description: "Creating and deploying stable digital currencies pegged to reliable fiat assets like the Swiss Franc. Our track record includes the first private digital Swiss franc (dCHF) in 2018 and HCHF on Hedera in 2024."
-    },
-    {
-      number: "03",
-      title: "SMART CONTRACT ENGINEERING",
-      description: "Designing, developing, and auditing smart contracts on leading blockchain networks including Ethereum and Hedera. Security-first approach with comprehensive third-party audits."
-    },
-    {
-      number: "04",
-      title: "DLT CONSULTING & RESEARCH",
-      description: "Strategic advisory on distributed ledger technology adoption, tokenisation strategies, and regulatory compliance. Market research studies on digital currencies and DeFi ecosystems."
-    },
-    {
-      number: "05",
-      title: "PROTOCOL DEVELOPMENT",
-      description: "End-to-end development of decentralized protocols—from architecture design and smart contract implementation to frontend SDKs and launch kits for ecosystem operators."
-    },
-    {
-      number: "06",
-      title: "SUSTAINABLE BLOCKCHAIN",
-      description: "Zero-carbon DLT solutions that reflect our commitment to economic and environmental sustainability. Building responsible digital ecosystems for generations to come."
-    }
-  ];
-
   return (
     <div className="min-h-screen">
+      <Seo
+        title="Expertise — Swisscoast AG"
+        description="Advisory, software engineering, distributed ledger technology and research for universities, enterprises, DLT economies and foundations worldwide."
+        path="/services"
+      />
       <Navigation />
-      <section className="pt-32 pb-32 bg-background">
-        <div className="container mx-auto px-6">
+      <section className="pt-28 sm:pt-40 pb-16 sm:pb-32 bg-sky">
+        <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-7xl mx-auto">
-            <div className="mb-20">
-              <h1 className="text-minimal text-muted-foreground mb-4">EXPERTISE</h1>
-              <h2 className="text-4xl md:text-6xl font-light text-architectural">
-                What We Build
-              </h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mt-8">
-                Swisscoast combines deep blockchain expertise with Swiss precision 
-                to deliver innovative DLT solutions for the financial industry and beyond.
-              </p>
+            <h1 className="text-minimal text-primary mb-4">EXPERTISE</h1>
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-light text-architectural">How We Help</h2>
+            <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mt-8">
+              Swiss precision applied to technology — for the institutions shaping what comes next.
+            </p>
+
+            <div className="grid sm:grid-cols-2 gap-6 mt-12 sm:mt-20">
+              {capabilities.map(([t, d], i) => (
+                <div key={t} className="rounded-lg bg-card border border-border p-6 sm:p-10 shadow-elegant">
+                  <span className="text-minimal text-accent">0{i + 1}</span>
+                  <h3 className="text-xl sm:text-2xl font-light mt-3 mb-3 text-architectural">{t}</h3>
+                  <p className="text-muted-foreground leading-relaxed">{d}</p>
+                </div>
+              ))}
             </div>
-            
-            <div className="grid md:grid-cols-2 gap-x-20 gap-y-16">
-              {services.map((service, index) => (
-                <div key={index} className="group">
-                  <div className="flex items-start space-x-6">
-                    <span className="text-minimal text-muted-foreground font-medium">
-                      {service.number}
-                    </span>
-                    <div>
-                      <h3 className="text-2xl font-light mb-4 text-architectural group-hover:text-muted-foreground transition-colors duration-500">
-                        {service.title}
-                      </h3>
-                      <p className="text-muted-foreground leading-relaxed">
-                        {service.description}
-                      </p>
-                    </div>
-                  </div>
+
+            <h2 className="text-minimal text-primary mt-20 mb-6">WHO WE SERVE</h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {audiences.map((a) => (
+                <div key={a.number} className="rounded-lg bg-ocean text-snow p-6">
+                  <h3 className="text-lg font-light mb-2">{a.title}</h3>
+                  <p className="text-sm text-snow/80 leading-relaxed">{a.description}</p>
                 </div>
               ))}
             </div>

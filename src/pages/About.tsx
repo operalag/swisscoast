@@ -1,103 +1,61 @@
 import Navigation from "@/components/Navigation";
+import Seo from "@/components/Seo";
 
 const About = () => {
-  const milestones = [
-    { year: "2003", event: "Swisscoast AG founded in Pfäffikon SZ" },
-    { year: "2017", event: "First-ever smart contract for UNICEF" },
-    { year: "2018", event: "Launch of the first private digital Swiss franc (dCHF) on Ethereum" },
-    { year: "2020", event: "Swiss DLT Act ratified by Parliament" },
-    { year: "2023", event: "Digital Swiss Currency market research with Hedera Hashgraph Association" },
-    { year: "2024", event: "HLiquity goes live on Hedera—HCHF stablecoin launched" },
-    { year: "2025", event: "HORUS decentralized prediction markets launched on Hedera" },
+  const values = [
+    ["Discretion", "We work quietly and confidentially, in the Swiss tradition."],
+    ["Precision", "Careful engineering and clear thinking in everything we deliver."],
+    ["Longevity", "Partnerships built for years, not for single projects."],
   ];
 
   return (
     <div className="min-h-screen">
+      <Seo
+        title="About Swisscoast AG — Swiss Technology Company since 2003"
+        description="Swisscoast AG was founded in 2003 as Scenic Swisscoast GmbH and is headquartered in Pfäffikon SZ, Switzerland. We serve universities, enterprises, DLT economies and foundations worldwide."
+        path="/about"
+      />
       <Navigation />
-      <section className="pt-24 sm:pt-32 pb-16 sm:pb-32 bg-background">
+      <section className="pt-28 sm:pt-40 pb-16 sm:pb-32 bg-sky">
         <div className="container mx-auto px-4 sm:px-6">
-          <div className="max-w-7xl mx-auto">
-            {/* Intro */}
-            <div className="grid md:grid-cols-2 gap-12 md:gap-20 items-start mb-16 sm:mb-32">
-              <div>
-                <h1 className="text-minimal text-muted-foreground mb-4">ABOUT</h1>
-                <h2 className="text-3xl sm:text-4xl md:text-6xl font-light text-architectural mb-8 sm:mb-12">
-                  Swiss Innovation,
-                  <br />
-                  Global Impact
-                </h2>
-                
-                <div className="space-y-6 sm:space-y-8">
-                  <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                    Swisscoast AG is a Swiss innovation technology company specialised in 
-                    blockchain applications, decentralised finance, and distributed ledger 
-                    technology. Rooted in the heart of Switzerland, we pioneer transformative 
-                    DLT solutions for leading international organisations and global communities.
-                  </p>
-                  
-                  <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                    Our commitment goes beyond technology and innovation. We are passionate 
-                    about shaping a sustainable future—ensuring that our developments not only 
-                    lead the way in innovation but also foster a responsible digital ecosystem.
-                  </p>
-                </div>
-              </div>
-              
-              <div className="space-y-8 sm:space-y-12">
-                <div>
-                  <h3 className="text-minimal text-muted-foreground mb-4 sm:mb-6">OUR VALUES</h3>
-                  <div className="space-y-4 sm:space-y-6">
-                    <div className="border-l-2 border-architectural pl-4 sm:pl-6">
-                      <h4 className="text-lg font-medium mb-2">Innovation</h4>
-                      <p className="text-muted-foreground">Pushing the boundaries of what's possible with distributed ledger technology</p>
-                    </div>
-                    <div className="border-l-2 border-architectural pl-4 sm:pl-6">
-                      <h4 className="text-lg font-medium mb-2">Sustainability</h4>
-                      <p className="text-muted-foreground">Zero-carbon solutions committed to economic and environmental responsibility</p>
-                    </div>
-                    <div className="border-l-2 border-architectural pl-4 sm:pl-6">
-                      <h4 className="text-lg font-medium mb-2">Integrity</h4>
-                      <p className="text-muted-foreground">Swiss precision and transparency in everything we build</p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="pt-6 sm:pt-8 border-t border-border">
-                  <div className="grid grid-cols-2 gap-8">
-                    <div>
-                      <h3 className="text-minimal text-muted-foreground mb-2">FOUNDED</h3>
-                      <p className="text-xl">2003</p>
-                    </div>
-                    <div>
-                      <h3 className="text-minimal text-muted-foreground mb-2">LOCATION</h3>
-                      <p className="text-xl">Pfäffikon SZ</p>
-                    </div>
-                  </div>
-                </div>
+          <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 md:gap-20 items-start">
+            <div>
+              <h1 className="text-minimal text-primary mb-4">ABOUT</h1>
+              <h2 className="text-3xl sm:text-4xl md:text-6xl font-light text-architectural mb-8 sm:mb-12">
+                Swiss Roots,
+                <br />
+                Global Partners
+              </h2>
+              <div className="space-y-6 text-base sm:text-lg text-muted-foreground leading-relaxed">
+                <p>
+                  Swisscoast AG was founded in 2003 as Scenic Swisscoast GmbH. In 2024 the company
+                  became a stock corporation and moved its headquarters to Pfäffikon SZ.
+                </p>
+                <p>
+                  Today we create, deliver and advise on software and digital technology for
+                  universities, enterprises, DLT economies and foundations all over the world.
+                </p>
               </div>
             </div>
 
-            {/* Timeline */}
-            <div className="mb-16 sm:mb-32">
-              <h3 className="text-minimal text-muted-foreground mb-4">MILESTONES</h3>
-              <h4 className="text-3xl sm:text-4xl md:text-5xl font-light text-architectural mb-10 sm:mb-16">
-                Our Journey
-              </h4>
-              <div className="space-y-6 sm:space-y-8">
-                {milestones.map((milestone, index) => (
-                  <div key={index} className="flex items-start space-x-4 sm:space-x-8 group">
-                    <span className="text-xl sm:text-2xl font-light text-architectural min-w-[60px] sm:min-w-[80px]">
-                      {milestone.year}
-                    </span>
-                    <div className="border-l-2 border-border group-hover:border-foreground transition-colors duration-300 pl-4 sm:pl-8 py-2">
-                      <p className="text-base sm:text-lg text-muted-foreground group-hover:text-foreground transition-colors duration-300">
-                        {milestone.event}
-                      </p>
-                    </div>
-                  </div>
-                ))}
+            <div className="space-y-6">
+              {values.map(([title, text]) => (
+                <div key={title} className="rounded-lg bg-card border border-border p-6 shadow-elegant">
+                  <h3 className="text-lg font-medium text-primary mb-2">{title}</h3>
+                  <p className="text-muted-foreground">{text}</p>
+                </div>
+              ))}
+              <div className="grid grid-cols-2 gap-6 pt-4">
+                <div>
+                  <p className="text-minimal text-primary mb-2">FOUNDED</p>
+                  <p className="text-xl">2003</p>
+                </div>
+                <div>
+                  <p className="text-minimal text-primary mb-2">LOCATION</p>
+                  <p className="text-xl">Pfäffikon SZ</p>
+                </div>
               </div>
-          </div>
+            </div>
           </div>
         </div>
       </section>

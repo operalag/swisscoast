@@ -4,17 +4,12 @@ import Seo from "@/components/Seo";
 
 const MediaKit = () => {
   const projectAssets = [
-    { name: "ClimateActions", file: "/media-kit/project-climateactions.jpg" },
-    { name: "BIDI — Muri bei Bern", file: "/media-kit/project-bidi.jpg" },
-    { name: "HLiquity Protocol", file: "/media-kit/project-hliquity.jpg" },
-    { name: "HORUS", file: "/media-kit/project-horus.jpg" },
-    { name: "HCHF / dCHF", file: "/media-kit/project-dchf.jpg" },
     { name: "Swisscoast key visual", file: "/media-kit/hero-swisscoast.jpg" },
   ];
 
   const facts = [
     ["Legal name", "Swisscoast AG"],
-    ["Founded", "2003"],
+    ["Founded", "2003 (as Scenic Swisscoast GmbH)"],
     ["Headquarters", "Schindellegistrasse 73, 8808 Pfäffikon SZ, Switzerland"],
     ["UID", "CHE-110.173.134"],
     ["Press contact", "office@swisscoast.ch"],
@@ -119,7 +114,7 @@ const MediaKit = () => {
       <section className="pb-16 sm:pb-24">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-minimal text-muted-foreground mb-6">PROJECT IMAGES</h2>
+            <h2 className="text-minimal text-muted-foreground mb-6">KEY VISUAL</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-10">
               {projectAssets.map((asset) => (
                 <div key={asset.name} className="group">
