@@ -20,12 +20,6 @@ const Hero = () => {
         <p className="text-lg sm:text-xl md:text-2xl text-snow/85 font-light tracking-wide max-w-2xl mx-auto reveal-delayed">
           A Swiss technology partner for universities, enterprises, DLT economies and foundations around the world
         </p>
-        <a
-          href="#contact"
-          className="inline-block mt-10 px-8 py-3 rounded-full border border-snow/50 text-minimal text-snow hover:bg-snow hover:text-navy transition-colors duration-300 reveal-delayed"
-        >
-          START A CONVERSATION
-        </a>
       </div>
 
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 reveal-delayed hidden sm:block">

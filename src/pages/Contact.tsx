@@ -61,9 +61,6 @@ const Contact = () => {
                     <a href="https://twitter.com/swisscoast" target="_blank" rel="noopener noreferrer" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
                       X (Twitter)
                     </a>
-                    <a href="https://github.com/SwisscoastAG" target="_blank" rel="noopener noreferrer" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
-                      GitHub
-                    </a>
                   </div>
                 </div>
 
