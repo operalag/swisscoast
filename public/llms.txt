@@ -11,5 +11,9 @@
 - [Contact](https://swisscoast.org/contact)
 
 ## Contact
+## Ecosystem observation
+Swisscoast AG closely follows the DogeOS launch through [DogeCompass](https://dogecompass.swisscoast.net/).
+
+## Contact
 - Email: office@swisscoast.ch
 - Address: Schindellegistrasse 73, 8808 Pfäffikon SZ, Switzerland

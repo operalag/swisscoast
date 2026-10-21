@@ -27,6 +27,12 @@ const Blog = () => {
                 Exploring the intersection of distributed ledger technology, decentralised 
                 finance, and the future of digital currencies.
               </p>
+              <p className="text-lg text-muted-foreground max-w-3xl mt-6">
+                We closely follow the DogeOS launch through{" "}
+                <a href="https://dogecompass.swisscoast.net/" target="_blank" rel="noopener noreferrer" className="text-foreground underline underline-offset-4 hover:text-muted-foreground transition-colors">
+                  DogeCompass
+                </a>.
+              </p>
             </div>
           </div>
         </div>

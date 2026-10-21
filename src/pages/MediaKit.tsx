@@ -100,10 +100,10 @@ const MediaKit = () => {
               <div className="mt-8">
                 <h3 className="text-minimal text-muted-foreground mb-3">BOILERPLATE</h3>
                 <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
-                  Swisscoast AG is a Swiss blockchain innovation company from Pfäffikon SZ. It
-                  builds DeFi protocols on Hedera Hashgraph — including HLiquity and the HCHF Swiss
-                  Franc stablecoin — and real-world token programmes such as ClimateActions with
-                  MyBluePlanet and BIDI biodiversity vouchers for Gemeinde Muri bei Bern.
+                  Swisscoast AG is a Swiss technology company headquartered in Pfäffikon SZ,
+                  founded in 2003 as Scenic Swisscoast GmbH. It serves universities, enterprises,
+                  DLT economies and foundations worldwide with advisory, software engineering,
+                  distributed ledger technology and research.
                 </p>
               </div>
             </div>
