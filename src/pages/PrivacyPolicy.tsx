@@ -68,7 +68,7 @@ const PrivacyPolicy = () => {
                 <p className="mb-8">We may receive data from third-party platforms if you interact with us through social media channels (LinkedIn, X/Twitter) or if you are referred to us by a business partner.</p>
 
                 <h3 className="text-xl font-medium text-foreground mb-3">3.4 Blockchain-Related Data</h3>
-                <p className="mb-3">SwissCoast develops decentralized protocols (such as HLiquity) that operate on public blockchain networks. Please note:</p>
+                <p className="mb-3">SwissCoast develops decentralized protocols that operate on public blockchain networks. Please note:</p>
                 <ul className="list-disc ml-6 space-y-2">
                   <li>Transactions on public blockchains (e.g., Hedera) are publicly visible and immutable by design. Wallet addresses and transaction data recorded on-chain are not controlled by SwissCoast.</li>
                   <li>SwissCoast does not collect, store, or process wallet addresses or on-chain transaction data through its corporate website. Interactions with decentralized protocols are governed by the respective protocol's terms and disclaimers.</li>
@@ -201,7 +201,7 @@ const PrivacyPolicy = () => {
               {/* 11 */}
               <section>
                 <h2 className="text-2xl md:text-3xl font-light text-architectural mb-6">11. Third-Party Websites and Protocols</h2>
-                <p className="mb-4">Our website may contain links to third-party websites, services, or decentralized protocols (such as HLiquity at hliquity.org). This Privacy Policy does not apply to those third-party services. We encourage you to review the privacy policies and disclaimers of any third-party service before providing personal data or interacting with decentralized applications.</p>
+                <p className="mb-4">Our website may contain links to third-party websites, services, or decentralized protocols. This Privacy Policy does not apply to those third-party services. We encourage you to review the privacy policies and disclaimers of any third-party service before providing personal data or interacting with decentralized applications.</p>
                 <p>Decentralized protocols operate autonomously on public blockchain networks. Interactions with such protocols are at your own risk and are not governed by this Privacy Policy.</p>
               </section>
 
