@@ -38,7 +38,6 @@ const Index = () => {
           sameAs: [
             "https://www.linkedin.com/company/swisscoast/",
             "https://twitter.com/swisscoast",
-            "https://github.com/SwisscoastAG",
           ],
         }}
       />
