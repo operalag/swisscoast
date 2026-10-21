@@ -19,6 +19,12 @@ const About = () => {
                 We create, deliver and advise on software and digital technology — with the calm,
                 precise and reliable approach Switzerland is known for.
               </p>
+              <p>
+                We closely follow the DogeOS launch through{" "}
+                <a href="https://dogecompass.swisscoast.net/" target="_blank" rel="noopener noreferrer" className="text-snow underline underline-offset-4 hover:text-sky transition-colors">
+                  DogeCompass
+                </a>.
+              </p>
             </div>
           </div>
 

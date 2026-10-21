@@ -56,13 +56,13 @@ const Learn = () => {
               </p>
               <div className="flex flex-wrap justify-center gap-6 pt-4 text-sm text-muted-foreground">
                 <span className="flex items-center gap-1.5">
-                  <BookOpen className="h-4 w-4" /> 3 Modules
+                  <BookOpen className="h-4 w-4" /> {learningModules.length} Modules
                 </span>
                 <span className="flex items-center gap-1.5">
-                  <Trophy className="h-4 w-4" /> 15 Chapters
+                  <Trophy className="h-4 w-4" /> {learningModules.reduce((total, module) => total + module.chapters.length, 0)} Chapters
                 </span>
                 <span className="flex items-center gap-1.5">
-                  <CheckCircle className="h-4 w-4" /> 75 Quiz Questions
+                  <CheckCircle className="h-4 w-4" /> {learningModules.reduce((total, module) => total + module.chapters.reduce((count, chapter) => count + chapter.quiz.length, 0), 0)} Quiz Questions
                 </span>
               </div>
             </div>
@@ -88,7 +88,7 @@ const Learn = () => {
           {/* Module cards */}
           <section className="container mx-auto px-4 sm:px-6">
             <h2 className="text-minimal text-muted-foreground text-center mb-8">Choose a Module</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
               {learningModules.map((mod, i) => {
                 const progress = getModuleProgress(mod.id);
                 return (

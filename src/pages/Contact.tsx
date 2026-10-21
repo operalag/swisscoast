@@ -67,11 +67,9 @@ const Contact = () => {
                 <div>
                   <h3 className="text-minimal text-muted-foreground mb-6">ECOSYSTEM</h3>
                   <div className="space-y-4">
-                    <a href="https://hliquity.org" target="_blank" rel="noopener noreferrer" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
-                      HLiquity Protocol
-                    </a>
-                    <a href="https://docs.hliquity.org" target="_blank" rel="noopener noreferrer" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
-                      HLiquity Documentation
+                    <p className="text-muted-foreground">We closely follow the DogeOS launch.</p>
+                    <a href="https://dogecompass.swisscoast.net/" target="_blank" rel="noopener noreferrer" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
+                      DogeCompass
                     </a>
                   </div>
                 </div>

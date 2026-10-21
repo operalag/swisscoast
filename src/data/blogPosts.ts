@@ -1,5 +1,3 @@
-import projectHliquity from "@/assets/project-hliquity.jpg";
-import projectDchf from "@/assets/project-dchf.jpg";
 import projectDefi from "@/assets/project-defi.jpg";
 import projectClimateactions from "@/assets/project-climateactions.jpg";
 
@@ -69,7 +67,7 @@ Token rewards only work if people trust them. Recording ClimateToken issuance on
 
 ## From Protocols to Real-World Impact
 
-ClimateActions sits alongside our DeFi work—HLiquity, HCHF, HORUS—as proof that the same engineering discipline applies to civic and environmental programmes. Tokens do not have to be speculative instruments; they can be a receipt for real work done in a real place.
+The same engineering discipline applies to civic and environmental programmes. Tokens do not have to be speculative instruments; they can be a receipt for real work done in a real place.
 
 ## Try It
 
@@ -82,145 +80,6 @@ ClimateActions is live at [climateactions.ch](https://climateactions.ch). Open i
     image: projectClimateactions
   },
 
-  {
-    id: "hliquity-defi-borrowing-hedera",
-    title: "How Interest-Free Borrowing Works on HLiquity",
-    excerpt: "A deep dive into HLiquity's revolutionary borrowing mechanism on the Hedera network—interest-free loans backed by HBAR, issuing HCHF stablecoins.",
-    content: `
-# How Interest-Free Borrowing Works on HLiquity
-
-HLiquity represents a paradigm shift in decentralised finance. Built on the Hedera network, it enables users to borrow against their HBAR holdings without paying ongoing interest—a model that challenges traditional lending norms.
-
-## The Core Mechanism
-
-HLiquity is a fork of the well-established Liquity Protocol on Ethereum, adapted for Hedera's high-throughput, low-cost infrastructure. Instead of charging interest, HLiquity applies a one-time borrowing fee when a loan is opened.
-
-### How It Works
-
-Users deposit HBAR as collateral into a "Trove" and can borrow HCHF—a stablecoin pegged to the Swiss Franc—against it. The minimum collateral ratio is 110%, meaning for every 100 CHF worth of HCHF borrowed, at least 110 CHF worth of HBAR must be locked.
-
-### Key Features
-
-- **Interest-Free**: No ongoing interest charges on loans
-- **Low Collateral Ratio**: Minimum 110% vs. 150%+ on many DeFi platforms
-- **Immediate Liquidation**: Undercollateralised positions are liquidated instantly
-- **Non-Custodial**: Users maintain full control of their assets
-
-## The Stability Pool
-
-The Stability Pool is HLiquity's safety net. HCHF holders can deposit their tokens into the pool to act as liquidators. When a Trove falls below the minimum collateral ratio, the Stability Pool absorbs the debt and receives the collateral at a discount.
-
-### Benefits for Stability Providers
-
-- Earn HBAR from liquidated collateral at a discount
-- Receive HLQT token rewards for participating
-- Help maintain system stability
-
-## HCHF: The Swiss Franc Stablecoin
-
-HCHF is pegged to the Swiss Franc—a currency recognised for its reliability, stability, and low inflation. This makes HCHF uniquely positioned in the stablecoin landscape, which is dominated by USD-pegged tokens.
-
-### Price Stability Mechanisms
-
-- **Redemption**: HCHF can always be redeemed for HBAR at face value
-- **Arbitrage**: Price deviations create arbitrage opportunities that self-correct
-- **Collateral Backing**: Every HCHF is overcollateralised by HBAR
-
-## Why Hedera?
-
-Hedera offers several advantages for DeFi protocols:
-
-- **Low Transaction Costs**: Fractions of a cent per transaction
-- **High Throughput**: Thousands of transactions per second
-- **Energy Efficiency**: Carbon-negative network
-- **Enterprise Governance**: Governed by leading global organisations
-
-## The HLQT Token
-
-HLQT is the protocol's incentive token, distributed to Stability Pool providers and ecosystem participants. HLQT stakers earn a share of borrowing and redemption fees.
-
-## Security and Trust
-
-HLiquity has been audited by Omniscia, ensuring the smart contracts meet the highest security standards. The protocol is non-custodial, immutable, and governance-free—no single entity can alter its rules.
-
-## Conclusion
-
-HLiquity brings a proven DeFi model to Hedera with a unique Swiss Franc twist. By combining interest-free borrowing, robust liquidation mechanisms, and a stable currency pegged to one of the world's most trusted fiat currencies, HLiquity opens new possibilities for decentralised finance.
-    `,
-    author: "Swisscoast Team",
-    date: "2024-04-12",
-    readTime: "8 min read",
-    category: "DEFI",
-    image: projectHliquity
-  },
-  {
-    id: "digital-swiss-franc-history",
-    title: "The Journey to a Private Digital Swiss Franc",
-    excerpt: "From the first dCHF on Ethereum in 2018 to HCHF on Hedera in 2024—how Swisscoast pioneered stable digital Swiss currency.",
-    content: `
-# The Journey to a Private Digital Swiss Franc
-
-The Swiss Franc has long been a symbol of financial stability and trust. Swisscoast set out to bring those qualities into the decentralised digital world—and succeeded, twice.
-
-## The First dCHF: March 2018
-
-On March 20, 2018, Swisscoast launched the first private digital Swiss franc (dCHF) on the Ethereum blockchain, post block 52911611. This was a landmark moment: a Swiss company creating a digital representation of one of the world's most stable currencies on a public blockchain.
-
-### Why It Mattered
-
-- **First of Its Kind**: No private entity had created a digital Swiss franc before
-- **Swiss Precision**: Built with the same commitment to quality that defines Swiss finance
-- **Foundation for Future Work**: Proved the concept of fiat-pegged stablecoins from Switzerland
-
-## The Swiss DLT Act
-
-In 2020, the Swiss Parliament ratified the DLT Act, establishing clear legal and regulatory guidelines for blockchain and fintech. This legislation solidified Switzerland's position as a global leader in the blockchain industry and created a favorable environment for projects like Swisscoast's.
-
-## Market Research: Digital Swiss Currency Study
-
-In March 2023, Swisscoast conducted a comprehensive market research study on a digital Swiss Currency together with the Hedera Hashgraph Association. This research explored demand, use cases, and technical requirements for a next-generation Swiss franc stablecoin.
-
-### Key Findings
-
-- Strong demand for a CHF-denominated stablecoin in DeFi
-- The Swiss Franc is underrepresented in decentralised finance globally
-- Hedera's infrastructure offers ideal properties for stablecoin deployment
-- Regulatory clarity in Switzerland provides a competitive advantage
-
-## HCHF: The Evolution on Hedera
-
-Building on years of experience and research, Swisscoast deployed HCHF through the HLiquity protocol on Hedera in 2024. Unlike the original dCHF, HCHF is fully decentralised—generated through overcollateralised borrowing rather than centralised issuance.
-
-### How HCHF Differs from dCHF
-
-- **Decentralised Issuance**: Created through borrowing, not minting by an authority
-- **Overcollateralised**: Backed by HBAR at a minimum 110% ratio
-- **Self-Stabilising**: Redemption and arbitrage mechanisms maintain the peg
-- **Non-Custodial**: No single entity controls the supply
-
-## The Broader Vision
-
-Swisscoast's work on digital Swiss franc solutions is about more than technology. It's about:
-
-- **Diversifying DeFi**: Reducing dependence on USD-pegged stablecoins
-- **Swiss Values in Web3**: Bringing stability, precision, and trust to decentralised finance
-- **Financial Inclusion**: Making Swiss financial quality accessible globally
-- **Sustainability**: Building on energy-efficient blockchain infrastructure
-
-## What's Next
-
-Swisscoast is actively researching how to leverage HLiquity for further innovations. The protocol serves as a foundation for future projects that will continue to bridge traditional Swiss finance with the decentralised digital world.
-
-## Conclusion
-
-From the pioneering dCHF on Ethereum to the fully decentralised HCHF on Hedera, Swisscoast has consistently pushed the boundaries of what's possible with digital currencies. Each step has been guided by the same principles: Swiss quality, financial stability, and a commitment to building a sustainable digital ecosystem.
-    `,
-    author: "Swisscoast Team",
-    date: "2024-03-28",
-    readTime: "7 min read",
-    category: "STABLECOIN",
-    image: projectDchf
-  },
   {
     id: "sustainable-blockchain-future",
     title: "Building Sustainable DLT Solutions",
@@ -240,7 +99,7 @@ The industry is evolving. Proof-of-stake and other consensus mechanisms dramatic
 
 ## Why Hedera for Sustainability
 
-Swisscoast chose Hedera as the platform for HLiquity not just for its performance, but for its environmental credentials:
+Hedera illustrates how distributed ledger networks can address environmental considerations alongside performance:
 
 - **Carbon-Negative**: Hedera purchases carbon offsets exceeding its energy usage
 - **Energy-Efficient**: Hashgraph consensus requires minimal computational resources
@@ -293,7 +152,7 @@ True sustainability in blockchain goes beyond energy consumption:
 
 ### Ecosystem Health
 - Supporting a diverse DeFi ecosystem on Hedera
-- Enabling new projects to build on HLiquity's foundation
+- Sharing knowledge across the distributed ledger ecosystem
 - Contributing to the overall resilience of decentralised finance
 
 ## The Road Ahead
