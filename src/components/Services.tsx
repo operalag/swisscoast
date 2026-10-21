@@ -1,59 +1,49 @@
-const Services = () => {
-  const services = [
-    {
-      number: "01",
-      title: "DECENTRALIZED FINANCE",
-      description: "Pioneering DeFi applications and protocols on Hedera Hashgraph that transform the financial landscape. We make decentralized finance accessible and integrate it seamlessly into business operations."
-    },
-    {
-      number: "02", 
-      title: "STABLE CURRENCY SOLUTIONS",
-      description: "Creating and deploying stable digital currencies pegged to reliable fiat assets. From the first private digital Swiss franc (dCHF) to HCHF on Hedera Hashgraph—promoting financial stability and growth."
-    },
-    {
-      number: "03",
-      title: "PREDICTION MARKETS",
-      description: "Building decentralized prediction market protocols on Hedera. HORUS enables trustless outcome trading with bond escalation, DAO governance, and token staking rewards."
-    },
-    {
-      number: "04",
-      title: "SMART CONTRACT ENGINEERING",
-      description: "Building secure, audited smart contracts on Hedera Hashgraph and Ethereum. From UNICEF's first smart contract in 2017 to production-grade DeFi protocols."
-    },
-    {
-      number: "05",
-      title: "SUSTAINABLE DLT",
-      description: "Developing zero-carbon blockchain solutions on Hedera's carbon-negative network. Innovation and environmental responsibility go hand in hand."
-    }
-  ];
+export const audiences = [
+  {
+    number: "01",
+    title: "UNIVERSITIES",
+    description: "Research partnerships, applied technology studies and teaching support — helping academic institutions explore emerging technologies with practical depth.",
+  },
+  {
+    number: "02",
+    title: "ENTERPRISES",
+    description: "Strategy, architecture and software engineering for companies modernising their operations, products and digital infrastructure.",
+  },
+  {
+    number: "03",
+    title: "DLT ECONOMIES",
+    description: "Advisory and engineering for distributed ledger ecosystems, networks and the organisations building on them.",
+  },
+  {
+    number: "04",
+    title: "FOUNDATIONS",
+    description: "Discreet, long-term support for foundations and non-profits translating their mission into sound, sustainable technology.",
+  },
+];
 
+const Services = () => {
   return (
-    <section id="services" className="py-16 sm:py-32 bg-background" aria-label="Swisscoast expertise in Hedera Hashgraph DeFi">
+    <section id="services" className="py-16 sm:py-32 bg-sky" aria-label="Who Swisscoast serves">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12 sm:mb-20">
-            <h2 className="text-minimal text-muted-foreground mb-4">OUR EXPERTISE</h2>
+            <h2 className="text-minimal text-primary mb-4">WHO WE SERVE</h2>
             <h3 className="text-3xl sm:text-4xl md:text-6xl font-light text-architectural">
-              What We Build on Hedera
+              Partners Around the World
             </h3>
           </div>
-          
-          <div className="grid sm:grid-cols-2 gap-x-12 sm:gap-x-20 gap-y-10 sm:gap-y-16">
-            {services.map((service, index) => (
-              <div key={index} className="group">
-                <div className="flex items-start space-x-4 sm:space-x-6">
-                  <span className="text-minimal text-muted-foreground font-medium">
-                    {service.number}
-                  </span>
-                  <div>
-                    <h4 className="text-xl sm:text-2xl font-light mb-3 sm:mb-4 text-architectural group-hover:text-muted-foreground transition-colors duration-500">
-                      {service.title}
-                    </h4>
-                    <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
-                      {service.description}
-                    </p>
-                  </div>
-                </div>
+
+          <div className="grid sm:grid-cols-2 gap-6 sm:gap-8">
+            {audiences.map((a) => (
+              <div
+                key={a.number}
+                className="group rounded-lg bg-card border border-border p-6 sm:p-10 shadow-elegant hover:-translate-y-1 hover:border-accent transition-all duration-500"
+              >
+                <span className="text-minimal text-accent">{a.number}</span>
+                <h4 className="text-xl sm:text-2xl font-light mt-3 mb-3 sm:mb-4 text-architectural group-hover:text-primary transition-colors duration-500">
+                  {a.title}
+                </h4>
+                <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">{a.description}</p>
               </div>
             ))}
           </div>

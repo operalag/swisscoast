@@ -6,8 +6,8 @@ const Contact = () => {
   return (
     <div className="min-h-screen">
       <Seo
-        title="Contact Swisscoast AG — Blockchain Company in Pfäffikon SZ"
-        description="Talk to Swisscoast AG, a Swiss blockchain and DeFi company in Pfäffikon SZ, Canton Schwyz. Email office@swisscoast.ch, or download our media kit for press enquiries."
+        title="Contact Swisscoast AG — Technology Partner in Pfäffikon SZ"
+        description="Talk to Swisscoast AG, a Swiss technology company in Pfäffikon SZ, Canton Schwyz. Email office@swisscoast.ch, or download our media kit for press enquiries."
         path="/contact"
         keywords="Swisscoast Kontakt, blockchain company Pfäffikon SZ, Blockchain Firma Schwyz, Swiss DLT partner, Hedera Entwickler Schweiz"
       />
@@ -22,7 +22,7 @@ const Contact = () => {
                 <h2 className="text-4xl md:text-6xl font-light text-architectural mb-12">
                   Let's Shape
                   <br />
-                  The Future of Finance
+                  What Comes Next
                 </h2>
                 
                 <div className="space-y-8">
