@@ -1,5 +1,9 @@
 # Roadmap
 
+- [ ] Remove all HLiquity-related website content and downloads
+- [ ] Add Swisscoast's DogeOS launch observation and DogeCompass link
+- [ ] Verify the content removal and updated pages
+
 - [x] Case studies page with client stories and results, linked from projects
 - [x] ClimateActions product page (goals, impact, collaboration), linked from projects
 - [x] Local Swiss SEO for homepage and projects page (per-route head, LocalBusiness JSON-LD, on-page local copy)
